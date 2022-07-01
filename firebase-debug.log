@@ -1,0 +1,49 @@
+[debug] [2022-07-01T23:12:48.901Z] ----------------------------------------------------------------------
+[debug] [2022-07-01T23:12:48.906Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js deploy --only functions
+[debug] [2022-07-01T23:12:48.907Z] CLI Version:   11.1.0
+[debug] [2022-07-01T23:12:48.908Z] Platform:      win32
+[debug] [2022-07-01T23:12:48.908Z] Node Version:  v16.12.0
+[debug] [2022-07-01T23:12:48.911Z] Time:          Sat Jul 02 2022 00:12:48 GMT+0100 (British Summer Time)
+[debug] [2022-07-01T23:12:48.912Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-01T23:12:49.079Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-01T23:12:49.080Z] > authorizing via signed-in user (timwells018@googlemail.com)
+[debug] [2022-07-01T23:12:49.080Z] [iam] checking project hsax-10fe6 for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2022-07-01T23:12:49.085Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/hsax-10fe6:testIamPermissions [none]
+[debug] [2022-07-01T23:12:49.086Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/hsax-10fe6:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2022-07-01T23:12:49.399Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/hsax-10fe6:testIamPermissions 200
+[debug] [2022-07-01T23:12:49.400Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/hsax-10fe6:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2022-07-01T23:12:49.401Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/hsax-10fe6/serviceAccounts/hsax-10fe6@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2022-07-01T23:12:49.401Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/hsax-10fe6/serviceAccounts/hsax-10fe6@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2022-07-01T23:12:50.025Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/hsax-10fe6/serviceAccounts/hsax-10fe6@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2022-07-01T23:12:50.026Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/hsax-10fe6/serviceAccounts/hsax-10fe6@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[info] 
+[info] === Deploying to 'hsax-10fe6'...
+[info] 
+[info] i  deploying functions 
+[debug] [2022-07-01T23:12:50.039Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hsax-10fe6 [none]
+[debug] [2022-07-01T23:12:50.314Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hsax-10fe6 200
+[debug] [2022-07-01T23:12:50.315Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hsax-10fe6 {"projectId":"hsax-10fe6","projectNumber":"999156011936","displayName":"hsax","name":"projects/hsax-10fe6","resources":{"hostingSite":"hsax-10fe6"},"state":"ACTIVE"}
+[info] i  functions: ensuring required API cloudfunctions.googleapis.com is enabled... 
+[info] i  functions: ensuring required API cloudbuild.googleapis.com is enabled... 
+[debug] [2022-07-01T23:12:50.323Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/hsax-10fe6/services/cloudfunctions.googleapis.com [none]
+[debug] [2022-07-01T23:12:50.325Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/hsax-10fe6/services/runtimeconfig.googleapis.com [none]
+[debug] [2022-07-01T23:12:50.327Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/hsax-10fe6/services/cloudbuild.googleapis.com [none]
+[debug] [2022-07-01T23:12:50.328Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/hsax-10fe6/services/artifactregistry.googleapis.com [none]
+[debug] [2022-07-01T23:12:51.145Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/hsax-10fe6/services/runtimeconfig.googleapis.com 200
+[debug] [2022-07-01T23:12:51.145Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/hsax-10fe6/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2022-07-01T23:12:51.171Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/hsax-10fe6/services/artifactregistry.googleapis.com 200
+[debug] [2022-07-01T23:12:51.171Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/hsax-10fe6/services/artifactregistry.googleapis.com [omitted]
+[debug] [2022-07-01T23:12:51.174Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/hsax-10fe6/services/cloudfunctions.googleapis.com 200
+[debug] [2022-07-01T23:12:51.175Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/hsax-10fe6/services/cloudfunctions.googleapis.com [omitted]
+[info] +  functions: required API cloudfunctions.googleapis.com is enabled 
+[debug] [2022-07-01T23:12:51.179Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/hsax-10fe6/services/cloudbuild.googleapis.com 200
+[debug] [2022-07-01T23:12:51.179Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/hsax-10fe6/services/cloudbuild.googleapis.com [omitted]
+[info] +  functions: required API cloudbuild.googleapis.com is enabled 
+[debug] [2022-07-01T23:12:51.181Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hsax-10fe6/adminSdkConfig [none]
+[debug] [2022-07-01T23:12:51.419Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hsax-10fe6/adminSdkConfig 200
+[debug] [2022-07-01T23:12:51.419Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hsax-10fe6/adminSdkConfig {"projectId":"hsax-10fe6","storageBucket":"hsax-10fe6.appspot.com"}
+[debug] [2022-07-01T23:12:51.420Z] >>> [apiv2][query] GET https://runtimeconfig.googleapis.com/v1beta1/projects/hsax-10fe6/configs [none]
+[debug] [2022-07-01T23:12:52.229Z] <<< [apiv2][status] GET https://runtimeconfig.googleapis.com/v1beta1/projects/hsax-10fe6/configs 200
+[debug] [2022-07-01T23:12:52.230Z] <<< [apiv2][body] GET https://runtimeconfig.googleapis.com/v1beta1/projects/hsax-10fe6/configs {}
+[info] i  functions: preparing codebase default for deployment 

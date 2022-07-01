@@ -13,8 +13,8 @@ const VERSION = "0.0.1";
 const API_KEY_NAME = "x-api-key"
 
 const isApiKeyValid = (request,keyName,apiKeys) => {
-    const apiKey = request.header(keyName);
-    return (apiKey != undefined && apiKey != null && apiKey.length > 0) ? apiKeys.includes(apiKey) : false;
+  const apiKey = request.header(keyName);
+  return (apiKey != undefined && apiKey != null && apiKey.length > 0) ? apiKeys.includes(apiKey) : false;
 }
 
 // Automatically allow cross-origin requests
@@ -30,6 +30,11 @@ app.get('/version-secured', (request, response) => {
   } else {
     response.status(401).send('unauthorized');
   }
+})
+
+app.get('/packages', (request, response) => {
+  response.contentType("application/json");
+  response.status(200).send(JSON.stringify(require("./data/packages.js")));
 })
 
 // Expose Express API as a single Cloud Function:
