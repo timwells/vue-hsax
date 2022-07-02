@@ -31,8 +31,16 @@ app.get('/version-secured', (request, response) => {
 app.get('/packages', (request, response) => {
   response.contentType("application/json");
   require("./data/packages/index.js")(request, response);
-  // response.status(200).send(VERSION);
-  // response.status(200).send(JSON.stringify(packages));
+})
+
+app.get('/packages', (request, response) => {
+  response.contentType("application/json");
+  require("./data/packages/index.js")(request, response);
+})
+
+app.get('/packages/:package', (request, response) => {
+  response.contentType("application/json");
+  require(`./data/packages/${request.params.package}/index.js`)(request, response);
 })
 
 // Expose Express API as a single Cloud Function:
