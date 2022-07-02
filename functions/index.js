@@ -14,33 +14,26 @@ const API_KEY_NAME = "x-api-key"
 
 const isApiKeyValid = (request,keyName,apiKeys) => {
   const apiKey = request.header(keyName);
-  return (apiKey != undefined && apiKey != null && apiKey.length > 0) ? apiKeys.includes(apiKey) : false;
+  return (apiKey != undefined && apiKey != null && apiKey.length > 0) 
+            ? apiKeys.includes(apiKey) : false;
 }
 
 // Automatically allow cross-origin requests
 app.use(cors({ origin: true }));
 
-app.get('/version', (request, response) => {
-    response.send(VERSION);
-})
+app.get('/version', (request, response) => {response.send(VERSION)})
 
 app.get('/version-secured', (request, response) => {
-  if(isApiKeyValid(request,API_KEY_NAME,config.apiKeys)) {
-    response.status(200).send(VERSION);
-  } else {
-    response.status(401).send('unauthorized');
-  }
+  isApiKeyValid(request,API_KEY_NAME,config.apiKeys) 
+    ? response.status(200).send(VERSION) : response.status(401).send('unauthorized');
 })
 
 app.get('/packages', (request, response) => {
   response.contentType("application/json");
-  response.status(200).send(JSON.stringify(require("./data/packages.js")));
+  require("./data/packages/index.js")(request, response);
+  // response.status(200).send(VERSION);
+  // response.status(200).send(JSON.stringify(packages));
 })
 
 // Expose Express API as a single Cloud Function:
 exports.hsax = functions.https.onRequest(app);
-
-
-
-
-
