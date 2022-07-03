@@ -12,8 +12,8 @@ const { config } = require("./config")
 const VERSION = "0.0.3";
 const API_KEY_NAME = "x-api-key"
 
-function isApiKeyValid(request,keyName,apiKeys) {
-  const apiKey = request.header(keyName);
+function isApiKeyValid(req,keyName,apiKeys) {
+  const apiKey = req.header(keyName);
   return (apiKey != undefined && apiKey != null && apiKey.length > 0) 
             ? apiKeys.includes(apiKey) : false;
 }
@@ -21,24 +21,32 @@ function isApiKeyValid(request,keyName,apiKeys) {
 // Automatically allow cross-origin requests
 app.use(cors({ origin: true }));
 
-app.get('/version', (request, response) => {response.send(VERSION)})
-app.get('/version-secured', (request, response) => {
-  if(isApiKeyValid(request,API_KEY_NAME,config.apiKeys))
-    response.status(200).send(VERSION)
+app.get('/version', (req, res) => {res.send(VERSION)})
+app.get('/version-secured', (req, res) => {
+  if(isApiKeyValid(req,API_KEY_NAME,config.apiKeys))
+    res.status(200).send(VERSION)
   else 
-    response.status(401).send('unauthorized');
+    res.status(401).send('unauthorized');
 })
 
-app.get('/publications', (request, response) => {
-  response.contentType("application/json");
-  const { publications } = require("./data/publications/index.js")
-  publications(request, response);
+app.get('/publications', (req, res) => {
+  if(isApiKeyValid(req,API_KEY_NAME,config.apiKeys)) {
+    res.contentType("application/json");
+    const { publications } = require("./data/publications/index.js")
+    publications(req, res);
+  } else {
+    res.status(401).send('unauthorized');
+  }
 })
 
-app.get('/publications/:publication', (request, response) => {
-  response.contentType("application/json");
-  const { publication } = require(`./data/publications/${request.params.publication}/index.js`)
-  publication(request, response);
+app.get('/publications/:publication', (req, res) => {
+  if(isApiKeyValid(req,API_KEY_NAME,config.apiKeys)) {
+    res.contentType("application/json");
+    const { publication } = require(`./data/publications/${req.params.publication}/index.js`)
+    publication(req, res);
+  } else {
+    res.status(401).send('unauthorized');
+  }
 })
 
 // Expose Express API as a single Cloud Function:

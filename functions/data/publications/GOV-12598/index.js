@@ -1,13 +1,5 @@
-const publications = (request, response) => {
-  response.json({ publications: [
-      "monkeypox-outbreak-technical-briefing-2-data-england-24-june-2022",
-      "monkeypox-outbreak-technical-briefing-2-data-england-10-june-2022"
-    ]}
-  )
-}
-
-const publication = (request, response) => {
-  response.json({
+const publication = (req, res) => {
+  res.status(200).json({
     title: "monkeypox-outbreak-technical-briefing-2-data-england",
     href: "https://www.gov.uk/government/publications/monkeypox-outbreak-technical-briefings/investigation-into-monkeypox-outbreak-in-england-technical-briefing-2",
     dataset: {
