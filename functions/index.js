@@ -9,7 +9,7 @@ const cors = require('cors');
 const app = express();
 const { config } = require("./config")
 
-const VERSION = "0.0.3";
+const VERSION = "0.0.4";
 const API_KEY_NAME = "x-api-key"
 
 function isApiKeyValid(req,keyName,apiKeys) {
@@ -18,15 +18,16 @@ function isApiKeyValid(req,keyName,apiKeys) {
             ? apiKeys.includes(apiKey) : false;
 }
 
+const unauthorized = (res) => res.status(401).send('unauthorized');
+
 // Automatically allow cross-origin requests
 app.use(cors({ origin: true }));
-
 app.get('/version', (req, res) => {res.send(VERSION)})
 app.get('/version-secured', (req, res) => {
   if(isApiKeyValid(req,API_KEY_NAME,config.apiKeys))
     res.status(200).send(VERSION)
-  else 
-    res.status(401).send('unauthorized');
+  else
+    unauthorized(res)
 })
 
 app.get('/publications', (req, res) => {
@@ -34,9 +35,8 @@ app.get('/publications', (req, res) => {
     res.contentType("application/json");
     const { publications } = require("./data/publications/index.js")
     publications(req, res);
-  } else {
-    res.status(401).send('unauthorized');
-  }
+  } else 
+      unauthorized(res)
 })
 
 app.get('/publications/:publication', (req, res) => {
@@ -44,9 +44,8 @@ app.get('/publications/:publication', (req, res) => {
     res.contentType("application/json");
     const { publication } = require(`./data/publications/${req.params.publication}/index.js`)
     publication(req, res);
-  } else {
-    res.status(401).send('unauthorized');
-  }
+  } else 
+      unauthorized(res)
 })
 
 // Expose Express API as a single Cloud Function:
