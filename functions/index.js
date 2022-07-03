@@ -22,7 +22,7 @@ const unauthorized = (res) => res.status(401).send('unauthorized');
 
 // Automatically allow cross-origin requests
 app.use(cors({ origin: true }));
-app.get('/version', (req, res) => {res.send(VERSION)})
+app.get('/version', (req, res) => {res.status(200).send(VERSION)})
 app.get('/version-secured', (req, res) => {
   if(isApiKeyValid(req,API_KEY_NAME,config.apiKeys))
     res.status(200).send(VERSION)
