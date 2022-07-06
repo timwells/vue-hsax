@@ -47,6 +47,7 @@ const publicationFiltered = (req, res) => {
 
   res.status(200).json({
     title: _title,
+    filter: _filter,
     filterAst: ast
   })
 }

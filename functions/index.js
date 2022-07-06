@@ -51,7 +51,7 @@ app.get('/v1/publications/:publication', (req, res) => {
     const _filter = req.query.filter;
     if(_filter) {
       const { publicationFiltered } = require(`./data/publications/${req.params.publication}/index.js`)
-      publicationFilter(req,res)
+      publicationFiltered(req,res)
     } else {
       const { publication } = require(`./data/publications/${req.params.publication}/index.js`)
       publication(req, res)
