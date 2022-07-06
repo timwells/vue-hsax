@@ -4,7 +4,8 @@ function publications(req, res) {
     "self": "/publications",
     "links": [
       { "publication" : "/publications/GOV-12598" },
-      { "publication" : "/publications/GOV-12654" }
+      { "publication" : "/publications/GOV-12654" },
+      { "publication" : "/publications/GOV-12999" }
     ]
   })
 }

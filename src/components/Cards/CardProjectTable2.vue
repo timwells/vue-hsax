@@ -24,7 +24,7 @@
 
 			<a-space slot="members" slot-scope="members" :size="-12" class="avatar-chips">
 				<template v-for="member in members">
-					<a-avatar :key="member" size="small" :src="member" />
+					<a-avatar :key="member size="small" :src="member />
 				</template>
 			</a-space>
 

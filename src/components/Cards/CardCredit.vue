@@ -12,7 +12,7 @@
 				</g>
 			</svg>
 		</template>
-		<h5 class="card-number">4562 1122 4594 7852</h5>
+		<h5 class="card-number>4562 1122 4594 7852</h5>
 		
 		<div class="card-footer">
 			<div class="mr-30">

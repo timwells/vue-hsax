@@ -22,15 +22,15 @@ const unauthorized = (res) => res.status(401).send('unauthorized');
 
 // Automatically allow cross-origin requests
 app.use(cors({ origin: true }));
-app.get('/version', (req, res) => {res.status(200).send(VERSION)})
-app.get('/version-secured', (req, res) => {
+app.get('/v1/version', (req, res) => {res.status(200).send(VERSION)})
+app.get('/v1/version-secured', (req, res) => {
   if(isApiKeyValid(req,API_KEY_NAME,config.apiKeys))
     res.status(200).send(VERSION)
   else
     unauthorized(res)
 })
 
-app.get('/publications', (req, res) => {
+app.get('/v1/publications', (req, res) => {
   if(isApiKeyValid(req,API_KEY_NAME,config.apiKeys)) {
     res.contentType("application/json");
     const { publications } = require("./data/publications/index.js")
@@ -39,7 +39,7 @@ app.get('/publications', (req, res) => {
       unauthorized(res)
 })
 
-app.get('/publications/:publication', (req, res) => {
+app.get('/v1/publications/:publication', (req, res) => {
   if(isApiKeyValid(req,API_KEY_NAME,config.apiKeys)) {
     res.contentType("application/json");
     const { publication } = require(`./data/publications/${req.params.publication}/index.js`)
@@ -47,6 +47,28 @@ app.get('/publications/:publication', (req, res) => {
   } else 
       unauthorized(res)
 })
+
+app.get('/v1/publications/:publication/dimensions', (req, res) => {
+  if(isApiKeyValid(req,API_KEY_NAME,config.apiKeys)) {
+    res.contentType("application/json");
+    const { dimensions } = require(`./data/publications/${req.params.publication}/index.js`)
+    dimensions(req, res);
+  } else 
+      unauthorized(res)
+})
+
+app.get('/v2/publications/:publication', (req, res) => {
+  if(isApiKeyValid(req,API_KEY_NAME,config.apiKeys)) {
+    
+    const _filter = req.query.filter;
+    console.log(_filter)
+
+    res.contentType("application/json");
+    res.status(200).send(_filter)
+  } else unauthorized(res)
+})
+
+// const _api = 'https://us-central1-mk-d-b59f2.cloudfunctions.net/fintech/quote2?item=GOOG';
 
 // Expose Express API as a single Cloud Function:
 exports.hsax = functions.https.onRequest(app);
