@@ -16,7 +16,7 @@
 						<a-descriptions-item label="Email Address">
 							oliver@burrito.com
 						</a-descriptions-item>
-						<a-descriptions-item label="VAT Number>
+						<a-descriptions-item label="VAT Number">
 							FRB1235476
 						</a-descriptions-item>
 					</a-descriptions>
@@ -48,7 +48,7 @@
 						<a-descriptions-item label="Email Address">
 							lucas@syone-tech.com
 						</a-descriptions-item>
-						<a-descriptions-item label="VAT Number>
+						<a-descriptions-item label="VAT Number">
 							FRB1235476
 						</a-descriptions-item>
 					</a-descriptions>
@@ -80,7 +80,7 @@
 						<a-descriptions-item label="Email Address">
 							ethan@fiber.com
 						</a-descriptions-item>
-						<a-descriptions-item label="VAT Number>
+						<a-descriptions-item label="VAT Number">
 							FRB1235476
 						</a-descriptions-item>
 					</a-descriptions>

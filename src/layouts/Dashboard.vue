@@ -4,7 +4,6 @@
 
 <template>
 	<div>
-
 		<!-- Dashboard Layout -->
 		<a-layout class="layout-dashboard" id="layout-dashboard" :class="[navbarFixed ? 'navbar-fixed' : '', ! sidebarCollapsed ? 'has-sidebar' : '', layoutClass]">
 			
@@ -74,7 +73,8 @@
 </template>
 
 <script>
-
+	import { mapState } from "vuex";
+	
 	import DashboardSidebar from '../components/Sidebars/DashboardSidebar' ;
 	import DashboardHeader from '../components/Headers/DashboardHeader' ;
 	import DashboardFooter from '../components/Footers/DashboardFooter' ;
@@ -105,6 +105,9 @@
 				showSettingsDrawer: false,
 			}
 		},
+		mounted() {
+	    this.$store.dispatch("markets/getMarkets");
+		},
 		methods: {
 			toggleSidebar( value ) {
 				this.sidebarCollapsed = value ;
@@ -124,6 +127,7 @@
 		},
 		computed: {
 			// Sets layout's element's class based on route's meta data.
+			...mapState("app", ["version"]),
 			layoutClass() {
 				return this.$route.meta.layoutClass ;
 			}

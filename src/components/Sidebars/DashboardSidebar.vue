@@ -41,7 +41,7 @@
 						<span class="label">Tables</span>
 					</router-link>
 				</a-menu-item>
-				<a-menu-item>
+				<!--a-menu-item>
 					<router-link to="/billing">
 						<span class="icon">
 							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -51,8 +51,8 @@
 						</span>
 						<span class="label">Billing</span>
 					</router-link>
-				</a-menu-item>
-				<a-menu-item>
+				</a-menu-item-->
+				<!--a-menu-item>
 					<router-link to="/rtl">
 						<span class="icon">
 							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -61,11 +61,11 @@
 						</span>
 						<span class="label">RTL</span>
 					</router-link>
-				</a-menu-item>
-				<a-menu-item class="menu-item-header">
+				</a-menu-item-->
+				<!--a-menu-item class="menu-item-header">
 					Account Pages
-				</a-menu-item>
-				<a-menu-item>
+				</a-menu-item-->
+				<!--a-menu-item>
 					<router-link to="/profile">
 						<span class="icon">
 							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -74,7 +74,7 @@
 						</span>
 						<span class="label">Profile</span>
 					</router-link>
-				</a-menu-item>
+				</a-menu-item-->
 				<a-menu-item>
 					<router-link to="/sign-in">
 						<span class="icon">
@@ -85,7 +85,7 @@
 						<span class="label">Sign In</span>
 					</router-link>
 				</a-menu-item>
-				<a-menu-item>
+				<!--a-menu-item>
 					<router-link to="/sign-up">
 						<span class="icon">
 							<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -106,12 +106,12 @@
 						</span>
 						<span class="label">Sign Up</span>
 					</router-link>
-				</a-menu-item>
+				</a-menu-item-->
 			</a-menu>
 			<!-- / Sidebar Navigation Menu -->
 
 			<!-- Sidebar Footer -->
-			<div class="aside-footer">
+			<!--div class="aside-footer">
 				<div class="footer-box">
 					<span class="icon">
 						<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -126,12 +126,12 @@
 						DOCUMENTATION
 					</a-button>
 				</div>
-			</div>
+			</div-->
 			<!-- / Sidebar Footer -->
 
-			<a-button type="primary" href="https://www.creative-tim.com/product/muse-vue-ant-design-dashboard-pro" block target="_blank">
+			<!--a-button type="primary" href="https://www.creative-tim.com/product/muse-vue-ant-design-dashboard-pro" block target="_blank">
 				UPGRADE TO PRO
-			</a-button>
+			</a-button-->
 
 	</a-layout-sider>
 	<!-- / Main Sidebar -->
