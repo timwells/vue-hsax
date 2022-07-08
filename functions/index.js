@@ -45,6 +45,15 @@ app.get('/v1/publications/:publication/dimensions', (req, res) => {
   } else unauthorized(res)
 })
 
+app.get('/v1/publications/:publication/list', (req, res) => {
+  if(isApiKeyValid(req,API_KEY_NAME,config.apiKeys)) {
+    res.contentType("application/json")
+    const { publicationList } = require(`./data/publications/${req.params.publication}/index.js`)
+    publicationList(req,res)
+  } else unauthorized(res)
+})
+
+
 app.get('/v1/publications/:publication', (req, res) => {
   if(isApiKeyValid(req,API_KEY_NAME,config.apiKeys)) {
     res.contentType("application/json")

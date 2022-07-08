@@ -1,0 +1,17 @@
+[
+  {
+    "_id": "65ed24d1-f34b-4f8c-8498-8f6b9e860efb",
+    "colName": "HSAX/V1",
+    "created": "2022-07-07T08:22:43.888Z",
+    "sortNum": 10000,
+    "folders": [
+      {
+        "_id": "5125d211-c3ad-4d50-8243-afce8d3bfdaa",
+        "name": "GOV-12999",
+        "containerId": "",
+        "created": "2022-07-07T08:22:43.896Z",
+        "sortNum": 10000
+      }
+    ]
+  }
+]

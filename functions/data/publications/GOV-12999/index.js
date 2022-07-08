@@ -16,13 +16,70 @@ const dimensions = (req, res) => {
 
 const publication = (req, res) => {
   const { seriesData } = require(`/workspace/data/publications/${req.params.publication}/data/seriesData.js`)
-
   res.status(200).json({
     title:_title,
     href: "",
-    dataset: seriesData,
-    // dirname: __dirname
+    dataset: seriesData
   })
+}
+
+
+
+/*
+{
+  run_id: 183,
+  ww_site_code: "UU-BHR",
+  rna_plate_mber: 2204021,
+  date_sample_collected: "08022022:0000",
+  variant_name: "B.1.1.529-BA.2",
+  variant_detection_ind: "CONFIRMED",
+  sample_id: "2109939-45",
+  data_model_version: 2
+}*/
+
+
+// ../hsax/v1/publications/GOV-12999/list?dimension=ww_site_code
+const publicationList = (req, res) => {
+  const { dimensionData } = require(`/workspace/data/publications/${req.params.publication}/data/dimensionData.js`) 
+
+  let dimensionNames = Object.entries(dimensionData).map(o => o[0])
+  const _queryDimension = req.query.dimension;
+
+  let responseObj = {
+    title: _title,
+    dimension: _queryDimension, 
+    dataset: []
+  } 
+
+  if(dimensionNames.includes(_queryDimension)) {
+    const { seriesData } = require(`/workspace/data/publications/${req.params.publication}/data/seriesData.js`)
+    const _dataset = [...new Set(seriesData.map(item => item[`${_queryDimension}`]))]
+    responseObj.dataset =_dataset
+  } else {
+    responseObj.dimensionNames = dimensionNames
+  }
+  res.status(200).json(responseObj)
+}
+
+const publicationFiltered = (req, res) => {
+  const _filter = req.query.filter;
+  const ast = parse(_filter)
+  const { seriesData } = require(`/workspace/data/publications/${req.params.publication}/data/seriesData.js`)
+  const ww_site_code = ['TW-CMS','UU-BHR']
+
+  res.status(200).json({
+    title: _title,
+    filter: _filter,
+    filterAst: ast,
+    dataset: seriesData.filter((dp)=> {return ww_site_code.includes(dp.ww_site_code)})
+  })
+}
+
+module.exports = {
+  dimensions,
+  publication,
+  publicationFiltered,
+  publicationList
 }
 
 /*
@@ -40,20 +97,3 @@ https://github.com/jirutka/rsql-parser#examples
 - genres=in=(sci-fi,action);genres=out=(romance,animated,horror),director==Que*Tarantino
 - genres=in=(sci-fi,action) and genres=out=(romance,animated,horror) or director==Que*Tarantino
 */
-
-const publicationFiltered = (req, res) => {
-  const _filter = req.query.filter;
-  const ast = parse(_filter)
-
-  res.status(200).json({
-    title: _title,
-    filter: _filter,
-    filterAst: ast
-  })
-}
-
-module.exports = {
-  dimensions,
-  publication,
-  publicationFiltered
-}
