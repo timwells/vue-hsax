@@ -7,9 +7,13 @@ const axios = require('axios');
 const express = require('express');
 const cors = require('cors');
 const app = express();
+
+// Automatically allow cross-origin requests
+app.use(cors({ origin: true }));
+
 const { config } = require("./config")
 
-const VERSION = "0.0.5";
+const VERSION = "0.0.6";
 const API_KEY_NAME = "x-api-key"
 
 function isApiKeyValid(req,keyName,apiKeys) {

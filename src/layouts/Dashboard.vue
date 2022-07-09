@@ -105,9 +105,6 @@
 				showSettingsDrawer: false,
 			}
 		},
-		mounted() {
-	    this.$store.dispatch("markets/getMarkets");
-		},
 		methods: {
 			toggleSidebar( value ) {
 				this.sidebarCollapsed = value ;
@@ -128,6 +125,7 @@
 		computed: {
 			// Sets layout's element's class based on route's meta data.
 			...mapState("app", ["version"]),
+			...mapState("ww", ["results"]),
 			layoutClass() {
 				return this.$route.meta.layoutClass ;
 			}

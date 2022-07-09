@@ -21,17 +21,17 @@ import DashboardRTLLayout from './layouts/DashboardRTL.vue'
 import router from './router'
 import store from "@/store";
 
+import JsonViewer from 'vue-json-viewer'
+
 import './scss/app.scss';
 
 Vue.use(Antd);
-
-Vue.config.productionTip = false
-
-// Adding template layouts to the vue components.
+Vue.use(JsonViewer)
 Vue.component("layout-default", DefaultLayout);
 Vue.component("layout-dashboard", DashboardLayout);
 Vue.component("layout-dashboard-rtl", DashboardRTLLayout);
 
+Vue.config.productionTip = false
 new Vue({
   store,
   router,

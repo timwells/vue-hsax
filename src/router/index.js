@@ -24,10 +24,10 @@ let routes = [
 		component: () => import(/* webpackChunkName: "dashboard" */ '../views/Dashboard.vue'),
 	},
 	{
-		path: '/layout',
-		name: 'Layout',
+		path: '/api-dashboard',
+		name: 'APIDashboard',
 		layout: "dashboard",
-		component: () => import('../views/Layout.vue'),
+		component: () => import(/* webpackChunkName: "dashboard" */ '../views/APIDashboard.vue'),
 	},
 	{
 		path: '/tables',
@@ -40,15 +40,6 @@ let routes = [
 		name: 'Billing',
 		layout: "dashboard",
 		component: () => import('../views/Billing.vue'),
-	},
-	{
-		path: '/rtl',
-		name: 'RTL',
-		layout: "dashboard-rtl",
-		meta: {
-			layoutClass: 'dashboard-rtl',
-		},
-		component: () => import('../views/RTL.vue'),
 	},
 	{
 		path: '/Profile',

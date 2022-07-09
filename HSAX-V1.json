@@ -1,1 +1,415 @@
-{"client":"Thunder Client","collectionName":"HSAX/V1","dateExported":"2022-07-08T17:21:28.014Z","version":"1.1","folders":[{"_id":"2f980639-bf6b-4b8c-a5c3-44766b1ab7b3","name":"GOV-12999","containerId":"","created":"2022-07-07T08:08:48.279Z","sortNum":10000},{"_id":"4c122d9a-8e33-42c4-9ebb-d45d9efac858","name":"list","containerId":"2f980639-bf6b-4b8c-a5c3-44766b1ab7b3","created":"2022-07-08T16:01:41.123Z","sortNum":20000}],"requests":[{"_id":"04f21b42-1194-42cf-8532-6524c2c4d6fe","colId":"44069f8f-3313-45a6-a4e4-c1e9fb262fb2","containerId":"","name":"version","url":"https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/version","method":"GET","sortNum":10000,"created":"2022-07-07T08:08:48.283Z","modified":"2022-07-07T08:08:48.283Z","headers":[],"params":[],"tests":[]},{"_id":"66f52110-50c7-4542-b078-70fb85e6d81e","colId":"44069f8f-3313-45a6-a4e4-c1e9fb262fb2","containerId":"2f980639-bf6b-4b8c-a5c3-44766b1ab7b3","name":"publications/GOV-12999","url":"https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999","method":"GET","sortNum":10000,"created":"2022-07-07T08:08:48.284Z","modified":"2022-07-07T08:08:48.284Z","headers":[{"name":"x-api-key","value":"8f103b7c-df04-43f8-a033-9f3e22f66c71"}],"params":[],"tests":[]},{"_id":"a43f4226-7e23-4fc2-8570-76c59dd51074","colId":"44069f8f-3313-45a6-a4e4-c1e9fb262fb2","containerId":"4c122d9a-8e33-42c4-9ebb-d45d9efac858","name":"publications/GOV-12999/list","url":"https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999/list?dimension=ws","method":"GET","sortNum":10000,"created":"2022-07-08T15:39:50.233Z","modified":"2022-07-08T16:01:46.958Z","headers":[{"name":"x-api-key","value":"8f103b7c-df04-43f8-a033-9f3e22f66c71"}],"params":[{"name":"dimension","value":"ws","isPath":false}],"tests":[]},{"_id":"9ebf80e1-236c-47d3-aa50-f2c88e05f680","colId":"44069f8f-3313-45a6-a4e4-c1e9fb262fb2","containerId":"4c122d9a-8e33-42c4-9ebb-d45d9efac858","name":"publications/GOV-12999/list - run_id","url":"https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999/list?dimension=run_id","method":"GET","sortNum":12500,"created":"2022-07-08T17:16:02.310Z","modified":"2022-07-08T17:19:13.892Z","headers":[{"name":"x-api-key","value":"8f103b7c-df04-43f8-a033-9f3e22f66c71"}],"params":[{"name":"dimension","value":"run_id","isPath":false}],"tests":[]},{"_id":"a0cccd06-f18d-4dfb-bdf1-8725eabe4746","colId":"44069f8f-3313-45a6-a4e4-c1e9fb262fb2","containerId":"2f980639-bf6b-4b8c-a5c3-44766b1ab7b3","name":"publications/GOV-12999?q","url":"https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999","method":"GET","sortNum":15000,"created":"2022-07-07T08:08:48.285Z","modified":"2022-07-07T08:08:48.285Z","headers":[{"name":"x-api-key","value":"8f103b7c-df04-43f8-a033-9f3e22f66c71"}],"params":[],"tests":[]},{"_id":"10d78656-b6f3-418e-a344-e043dddbdf20","colId":"44069f8f-3313-45a6-a4e4-c1e9fb262fb2","containerId":"4c122d9a-8e33-42c4-9ebb-d45d9efac858","name":"publications/GOV-12999/list - ww_site_code","url":"https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999/list?dimension=ww_site_code","method":"GET","sortNum":15000,"created":"2022-07-08T16:29:34.244Z","modified":"2022-07-08T16:30:15.571Z","headers":[{"name":"x-api-key","value":"8f103b7c-df04-43f8-a033-9f3e22f66c71"}],"params":[{"name":"dimension","value":"ww_site_code","isPath":false}],"tests":[]},{"_id":"04eb5a9a-01be-4897-80b5-e686d4a5ba6c","colId":"44069f8f-3313-45a6-a4e4-c1e9fb262fb2","containerId":"2f980639-bf6b-4b8c-a5c3-44766b1ab7b3","name":"publications/GOV-12999?filter2","url":"https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999?filter=genres=all=('thriller','sci-fi')","method":"GET","sortNum":17500,"created":"2022-07-07T08:08:48.286Z","modified":"2022-07-07T08:08:48.286Z","headers":[{"name":"x-api-key","value":"8f103b7c-df04-43f8-a033-9f3e22f66c71"}],"params":[{"name":"filter","value":"genres=all=('thriller','sci-fi')","isPath":false}],"tests":[]},{"_id":"48206db3-d036-41a6-a278-fe9871059c5b","colId":"44069f8f-3313-45a6-a4e4-c1e9fb262fb2","containerId":"2f980639-bf6b-4b8c-a5c3-44766b1ab7b3","name":"publications/GOV-12999?filter3","url":"https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999","method":"GET","sortNum":18750,"created":"2022-07-07T08:08:48.287Z","modified":"2022-07-07T08:08:48.287Z","headers":[{"name":"x-api-key","value":"8f103b7c-df04-43f8-a033-9f3e22f66c71"}],"params":[],"tests":[]},{"_id":"75c08054-dfcb-4d2d-8a23-b5a5953225dc","colId":"44069f8f-3313-45a6-a4e4-c1e9fb262fb2","containerId":"","name":"version-auth","url":"https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/version-secured","method":"GET","sortNum":20000,"created":"2022-07-07T08:08:48.288Z","modified":"2022-07-07T08:08:48.288Z","headers":[{"name":"x-api-key","value":"8f103b7c-df04-43f8-a033-9f3e22f66c71"}],"params":[],"tests":[]},{"_id":"8a56276e-a070-4324-b983-f6eb9ff5207d","colId":"44069f8f-3313-45a6-a4e4-c1e9fb262fb2","containerId":"2f980639-bf6b-4b8c-a5c3-44766b1ab7b3","name":"publications/GOV-12999/dimensions","url":"https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999/dimensions","method":"GET","sortNum":20000,"created":"2022-07-07T08:08:48.289Z","modified":"2022-07-07T08:08:48.289Z","headers":[{"name":"x-api-key","value":"8f103b7c-df04-43f8-a033-9f3e22f66c71"}],"params":[],"tests":[]},{"_id":"dbfac312-e55d-467e-9258-1e8dff9578dd","colId":"44069f8f-3313-45a6-a4e4-c1e9fb262fb2","containerId":"4c122d9a-8e33-42c4-9ebb-d45d9efac858","name":"publications/GOV-12999/list - variant_name","url":"https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999/list?dimension=variant_name","method":"GET","sortNum":20000,"created":"2022-07-08T16:01:59.787Z","modified":"2022-07-08T16:28:34.108Z","headers":[{"name":"x-api-key","value":"8f103b7c-df04-43f8-a033-9f3e22f66c71"}],"params":[{"name":"dimension","value":"variant_name","isPath":false}],"tests":[]},{"_id":"8c772ad7-6a8a-4883-836a-1bc6a77c9df9","colId":"44069f8f-3313-45a6-a4e4-c1e9fb262fb2","containerId":"4c122d9a-8e33-42c4-9ebb-d45d9efac858","name":"publications/GOV-12999/list - date_sample_collected","url":"https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999/list?dimension=date_sample_collected","method":"GET","sortNum":25000,"created":"2022-07-08T17:17:01.385Z","modified":"2022-07-08T17:19:34.545Z","headers":[{"name":"x-api-key","value":"8f103b7c-df04-43f8-a033-9f3e22f66c71"}],"params":[{"name":"dimension","value":"date_sample_collected","isPath":false}],"tests":[]},{"_id":"070c93b7-7faa-455e-b107-973138992d25","colId":"44069f8f-3313-45a6-a4e4-c1e9fb262fb2","containerId":"","name":"publications","url":"https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications","method":"GET","sortNum":30000,"created":"2022-07-07T08:08:48.290Z","modified":"2022-07-07T08:08:48.290Z","headers":[{"name":"x-api-key","value":"8f103b7c-df04-43f8-a033-9f3e22f66c71"}],"params":[],"tests":[]},{"_id":"abed18c5-04c5-4199-bb7e-1e557b292c69","colId":"44069f8f-3313-45a6-a4e4-c1e9fb262fb2","containerId":"4c122d9a-8e33-42c4-9ebb-d45d9efac858","name":"publications/GOV-12999/list - rna_plate_mber","url":"https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999/list?dimension=rna_plate_mber","method":"GET","sortNum":30000,"created":"2022-07-08T17:13:11.170Z","modified":"2022-07-08T17:14:36.354Z","headers":[{"name":"x-api-key","value":"8f103b7c-df04-43f8-a033-9f3e22f66c71"}],"params":[{"name":"dimension","value":"rna_plate_mber","isPath":false}],"tests":[]},{"_id":"c3c862a1-ba27-4ff2-9d40-484bc224e757","colId":"44069f8f-3313-45a6-a4e4-c1e9fb262fb2","containerId":"","name":"publications/GOV-12598","url":"https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12598","method":"GET","sortNum":40000,"created":"2022-07-07T08:08:48.291Z","modified":"2022-07-07T08:08:48.291Z","headers":[{"name":"x-api-key","value":"8f103b7c-df04-43f8-a033-9f3e22f66c71"}],"params":[],"tests":[]},{"_id":"c0298c58-33aa-4b20-a08c-634fc57264f3","colId":"44069f8f-3313-45a6-a4e4-c1e9fb262fb2","containerId":"4c122d9a-8e33-42c4-9ebb-d45d9efac858","name":"publications/GOV-12999/list - variant_detection_ind","url":"https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999/list?dimension=variant_detection_ind","method":"GET","sortNum":40000,"created":"2022-07-08T17:14:47.067Z","modified":"2022-07-08T17:20:06.910Z","headers":[{"name":"x-api-key","value":"8f103b7c-df04-43f8-a033-9f3e22f66c71"}],"params":[{"name":"dimension","value":"variant_detection_ind","isPath":false}],"tests":[]},{"_id":"45ac6a69-fd38-4dc5-939e-50dacc1204e0","colId":"44069f8f-3313-45a6-a4e4-c1e9fb262fb2","containerId":"","name":"publications/GOV-12654","url":"https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12654","method":"GET","sortNum":50000,"created":"2022-07-07T08:08:48.292Z","modified":"2022-07-07T08:08:48.292Z","headers":[{"name":"x-api-key","value":"8f103b7c-df04-43f8-a033-9f3e22f66c71"}],"params":[],"tests":[]},{"_id":"a17fb290-b58e-49b1-a271-663a174d2bc5","colId":"44069f8f-3313-45a6-a4e4-c1e9fb262fb2","containerId":"4c122d9a-8e33-42c4-9ebb-d45d9efac858","name":"publications/GOV-12999/list - data_model_version","url":"https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999/list?dimension=data_model_version","method":"GET","sortNum":50000,"created":"2022-07-08T17:15:23.318Z","modified":"2022-07-08T17:20:29.991Z","headers":[{"name":"x-api-key","value":"8f103b7c-df04-43f8-a033-9f3e22f66c71"}],"params":[{"name":"dimension","value":"data_model_version","isPath":false}],"tests":[]}]}
+{
+    "client": "Thunder Client",
+    "collectionName": "HSAX/V1",
+    "dateExported": "2022-07-08T17:21:28.014Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "2f980639-bf6b-4b8c-a5c3-44766b1ab7b3",
+            "name": "GOV-12999",
+            "containerId": "",
+            "created": "2022-07-07T08:08:48.279Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "4c122d9a-8e33-42c4-9ebb-d45d9efac858",
+            "name": "list",
+            "containerId": "2f980639-bf6b-4b8c-a5c3-44766b1ab7b3",
+            "created": "2022-07-08T16:01:41.123Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "04f21b42-1194-42cf-8532-6524c2c4d6fe",
+            "colId": "44069f8f-3313-45a6-a4e4-c1e9fb262fb2",
+            "containerId": "",
+            "name": "version",
+            "url": "https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/version",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2022-07-07T08:08:48.283Z",
+            "modified": "2022-07-07T08:08:48.283Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "66f52110-50c7-4542-b078-70fb85e6d81e",
+            "colId": "44069f8f-3313-45a6-a4e4-c1e9fb262fb2",
+            "containerId": "2f980639-bf6b-4b8c-a5c3-44766b1ab7b3",
+            "name": "publications/GOV-12999",
+            "url": "https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2022-07-07T08:08:48.284Z",
+            "modified": "2022-07-07T08:08:48.284Z",
+            "headers": [
+                {
+                    "name": "x-api-key",
+                    "value": "8f103b7c-df04-43f8-a033-9f3e22f66c71"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a43f4226-7e23-4fc2-8570-76c59dd51074",
+            "colId": "44069f8f-3313-45a6-a4e4-c1e9fb262fb2",
+            "containerId": "4c122d9a-8e33-42c4-9ebb-d45d9efac858",
+            "name": "publications/GOV-12999/list",
+            "url": "https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999/list?dimension=ws",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2022-07-08T15:39:50.233Z",
+            "modified": "2022-07-08T16:01:46.958Z",
+            "headers": [
+                {
+                    "name": "x-api-key",
+                    "value": "8f103b7c-df04-43f8-a033-9f3e22f66c71"
+                }
+            ],
+            "params": [
+                {
+                    "name": "dimension",
+                    "value": "ws",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "9ebf80e1-236c-47d3-aa50-f2c88e05f680",
+            "colId": "44069f8f-3313-45a6-a4e4-c1e9fb262fb2",
+            "containerId": "4c122d9a-8e33-42c4-9ebb-d45d9efac858",
+            "name": "publications/GOV-12999/list - run_id",
+            "url": "https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999/list?dimension=run_id",
+            "method": "GET",
+            "sortNum": 12500,
+            "created": "2022-07-08T17:16:02.310Z",
+            "modified": "2022-07-08T17:19:13.892Z",
+            "headers": [
+                {
+                    "name": "x-api-key",
+                    "value": "8f103b7c-df04-43f8-a033-9f3e22f66c71"
+                }
+            ],
+            "params": [
+                {
+                    "name": "dimension",
+                    "value": "run_id",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "a0cccd06-f18d-4dfb-bdf1-8725eabe4746",
+            "colId": "44069f8f-3313-45a6-a4e4-c1e9fb262fb2",
+            "containerId": "2f980639-bf6b-4b8c-a5c3-44766b1ab7b3",
+            "name": "publications/GOV-12999?q",
+            "url": "https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2022-07-07T08:08:48.285Z",
+            "modified": "2022-07-07T08:08:48.285Z",
+            "headers": [
+                {
+                    "name": "x-api-key",
+                    "value": "8f103b7c-df04-43f8-a033-9f3e22f66c71"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "10d78656-b6f3-418e-a344-e043dddbdf20",
+            "colId": "44069f8f-3313-45a6-a4e4-c1e9fb262fb2",
+            "containerId": "4c122d9a-8e33-42c4-9ebb-d45d9efac858",
+            "name": "publications/GOV-12999/list - ww_site_code",
+            "url": "https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999/list?dimension=ww_site_code",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2022-07-08T16:29:34.244Z",
+            "modified": "2022-07-08T16:30:15.571Z",
+            "headers": [
+                {
+                    "name": "x-api-key",
+                    "value": "8f103b7c-df04-43f8-a033-9f3e22f66c71"
+                }
+            ],
+            "params": [
+                {
+                    "name": "dimension",
+                    "value": "ww_site_code",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "04eb5a9a-01be-4897-80b5-e686d4a5ba6c",
+            "colId": "44069f8f-3313-45a6-a4e4-c1e9fb262fb2",
+            "containerId": "2f980639-bf6b-4b8c-a5c3-44766b1ab7b3",
+            "name": "publications/GOV-12999?filter2",
+            "url": "https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999?filter=genres=all=('thriller','sci-fi')",
+            "method": "GET",
+            "sortNum": 17500,
+            "created": "2022-07-07T08:08:48.286Z",
+            "modified": "2022-07-07T08:08:48.286Z",
+            "headers": [
+                {
+                    "name": "x-api-key",
+                    "value": "8f103b7c-df04-43f8-a033-9f3e22f66c71"
+                }
+            ],
+            "params": [
+                {
+                    "name": "filter",
+                    "value": "genres=all=('thriller','sci-fi')",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "48206db3-d036-41a6-a278-fe9871059c5b",
+            "colId": "44069f8f-3313-45a6-a4e4-c1e9fb262fb2",
+            "containerId": "2f980639-bf6b-4b8c-a5c3-44766b1ab7b3",
+            "name": "publications/GOV-12999?filter3",
+            "url": "https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999",
+            "method": "GET",
+            "sortNum": 18750,
+            "created": "2022-07-07T08:08:48.287Z",
+            "modified": "2022-07-07T08:08:48.287Z",
+            "headers": [
+                {
+                    "name": "x-api-key",
+                    "value": "8f103b7c-df04-43f8-a033-9f3e22f66c71"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "75c08054-dfcb-4d2d-8a23-b5a5953225dc",
+            "colId": "44069f8f-3313-45a6-a4e4-c1e9fb262fb2",
+            "containerId": "",
+            "name": "version-auth",
+            "url": "https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/version-secured",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2022-07-07T08:08:48.288Z",
+            "modified": "2022-07-07T08:08:48.288Z",
+            "headers": [
+                {
+                    "name": "x-api-key",
+                    "value": "8f103b7c-df04-43f8-a033-9f3e22f66c71"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8a56276e-a070-4324-b983-f6eb9ff5207d",
+            "colId": "44069f8f-3313-45a6-a4e4-c1e9fb262fb2",
+            "containerId": "2f980639-bf6b-4b8c-a5c3-44766b1ab7b3",
+            "name": "publications/GOV-12999/dimensions",
+            "url": "https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999/dimensions",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2022-07-07T08:08:48.289Z",
+            "modified": "2022-07-07T08:08:48.289Z",
+            "headers": [
+                {
+                    "name": "x-api-key",
+                    "value": "8f103b7c-df04-43f8-a033-9f3e22f66c71"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "dbfac312-e55d-467e-9258-1e8dff9578dd",
+            "colId": "44069f8f-3313-45a6-a4e4-c1e9fb262fb2",
+            "containerId": "4c122d9a-8e33-42c4-9ebb-d45d9efac858",
+            "name": "publications/GOV-12999/list - variant_name",
+            "url": "https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999/list?dimension=variant_name",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2022-07-08T16:01:59.787Z",
+            "modified": "2022-07-08T16:28:34.108Z",
+            "headers": [
+                {
+                    "name": "x-api-key",
+                    "value": "8f103b7c-df04-43f8-a033-9f3e22f66c71"
+                }
+            ],
+            "params": [
+                {
+                    "name": "dimension",
+                    "value": "variant_name",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "8c772ad7-6a8a-4883-836a-1bc6a77c9df9",
+            "colId": "44069f8f-3313-45a6-a4e4-c1e9fb262fb2",
+            "containerId": "4c122d9a-8e33-42c4-9ebb-d45d9efac858",
+            "name": "publications/GOV-12999/list - date_sample_collected",
+            "url": "https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999/list?dimension=date_sample_collected",
+            "method": "GET",
+            "sortNum": 25000,
+            "created": "2022-07-08T17:17:01.385Z",
+            "modified": "2022-07-08T17:19:34.545Z",
+            "headers": [
+                {
+                    "name": "x-api-key",
+                    "value": "8f103b7c-df04-43f8-a033-9f3e22f66c71"
+                }
+            ],
+            "params": [
+                {
+                    "name": "dimension",
+                    "value": "date_sample_collected",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "070c93b7-7faa-455e-b107-973138992d25",
+            "colId": "44069f8f-3313-45a6-a4e4-c1e9fb262fb2",
+            "containerId": "",
+            "name": "publications",
+            "url": "https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2022-07-07T08:08:48.290Z",
+            "modified": "2022-07-07T08:08:48.290Z",
+            "headers": [
+                {
+                    "name": "x-api-key",
+                    "value": "8f103b7c-df04-43f8-a033-9f3e22f66c71"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "abed18c5-04c5-4199-bb7e-1e557b292c69",
+            "colId": "44069f8f-3313-45a6-a4e4-c1e9fb262fb2",
+            "containerId": "4c122d9a-8e33-42c4-9ebb-d45d9efac858",
+            "name": "publications/GOV-12999/list - rna_plate_mber",
+            "url": "https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999/list?dimension=rna_plate_mber",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2022-07-08T17:13:11.170Z",
+            "modified": "2022-07-08T17:14:36.354Z",
+            "headers": [
+                {
+                    "name": "x-api-key",
+                    "value": "8f103b7c-df04-43f8-a033-9f3e22f66c71"
+                }
+            ],
+            "params": [
+                {
+                    "name": "dimension",
+                    "value": "rna_plate_mber",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "c3c862a1-ba27-4ff2-9d40-484bc224e757",
+            "colId": "44069f8f-3313-45a6-a4e4-c1e9fb262fb2",
+            "containerId": "",
+            "name": "publications/GOV-12598",
+            "url": "https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12598",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2022-07-07T08:08:48.291Z",
+            "modified": "2022-07-07T08:08:48.291Z",
+            "headers": [
+                {
+                    "name": "x-api-key",
+                    "value": "8f103b7c-df04-43f8-a033-9f3e22f66c71"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "c0298c58-33aa-4b20-a08c-634fc57264f3",
+            "colId": "44069f8f-3313-45a6-a4e4-c1e9fb262fb2",
+            "containerId": "4c122d9a-8e33-42c4-9ebb-d45d9efac858",
+            "name": "publications/GOV-12999/list - variant_detection_ind",
+            "url": "https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999/list?dimension=variant_detection_ind",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2022-07-08T17:14:47.067Z",
+            "modified": "2022-07-08T17:20:06.910Z",
+            "headers": [
+                {
+                    "name": "x-api-key",
+                    "value": "8f103b7c-df04-43f8-a033-9f3e22f66c71"
+                }
+            ],
+            "params": [
+                {
+                    "name": "dimension",
+                    "value": "variant_detection_ind",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "45ac6a69-fd38-4dc5-939e-50dacc1204e0",
+            "colId": "44069f8f-3313-45a6-a4e4-c1e9fb262fb2",
+            "containerId": "",
+            "name": "publications/GOV-12654",
+            "url": "https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12654",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2022-07-07T08:08:48.292Z",
+            "modified": "2022-07-07T08:08:48.292Z",
+            "headers": [
+                {
+                    "name": "x-api-key",
+                    "value": "8f103b7c-df04-43f8-a033-9f3e22f66c71"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a17fb290-b58e-49b1-a271-663a174d2bc5",
+            "colId": "44069f8f-3313-45a6-a4e4-c1e9fb262fb2",
+            "containerId": "4c122d9a-8e33-42c4-9ebb-d45d9efac858",
+            "name": "publications/GOV-12999/list - data_model_version",
+            "url": "https://us-central1-hsax-10fe6.cloudfunctions.net/hsax/v1/publications/GOV-12999/list?dimension=data_model_version",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2022-07-08T17:15:23.318Z",
+            "modified": "2022-07-08T17:20:29.991Z",
+            "headers": [
+                {
+                    "name": "x-api-key",
+                    "value": "8f103b7c-df04-43f8-a033-9f3e22f66c71"
+                }
+            ],
+            "params": [
+                {
+                    "name": "dimension",
+                    "value": "data_model_version",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}

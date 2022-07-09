@@ -6,10 +6,11 @@ const _title = "WW GENOMICS SEQUENCING VARIANT DETECTION"
 const dimensions = (req, res) => {
   const { dimensionData } = require(`/workspace/data/publications/${req.params.publication}/data/dimensionData.js`) 
   const { sampleData } = require(`/workspace/data/publications/${req.params.publication}/data/sampleData.js`) 
-
+  const { links } = require(`/workspace/data/publications/${req.params.publication}/data/links.js`)
   res.status(200).json({
     title: _title,
     dimensions: dimensionData,
+    links: links,
     sample: sampleData,
   })
 }
@@ -22,21 +23,6 @@ const publication = (req, res) => {
     dataset: seriesData
   })
 }
-
-
-
-/*
-{
-  run_id: 183,
-  ww_site_code: "UU-BHR",
-  rna_plate_mber: 2204021,
-  date_sample_collected: "08022022:0000",
-  variant_name: "B.1.1.529-BA.2",
-  variant_detection_ind: "CONFIRMED",
-  sample_id: "2109939-45",
-  data_model_version: 2
-}*/
-
 
 // ../hsax/v1/publications/GOV-12999/list?dimension=ww_site_code
 const publicationList = (req, res) => {
