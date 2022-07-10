@@ -57,18 +57,11 @@ app.get('/v1/publications/:publication/list', (req, res) => {
   } else unauthorized(res)
 })
 
-
-app.get('/v1/publications/:publication', (req, res) => {
+app.get('/v1/publications/:publication/filter', (req, res) => {
   if(isApiKeyValid(req,API_KEY_NAME,config.apiKeys)) {
     res.contentType("application/json")
-    const _filter = req.query.filter;
-    if(_filter) {
-      const { publicationFiltered } = require(`./data/publications/${req.params.publication}/index.js`)
-      publicationFiltered(req,res)
-    } else {
-      const { publication } = require(`./data/publications/${req.params.publication}/index.js`)
-      publication(req, res)
-    }
+    const { publicationFilter } = require(`./data/publications/${req.params.publication}/index.js`)
+    publicationFilter(req,res)
   } else unauthorized(res)
 })
 

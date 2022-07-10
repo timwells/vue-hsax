@@ -47,25 +47,31 @@ const publicationList = (req, res) => {
   res.status(200).json(responseObj)
 }
 
-const publicationFiltered = (req, res) => {
-  const _filter = req.query.filter;
-  const ast = parse(_filter)
+const publicationFilter = (req, res) => {
+  //const { dimensionData } = require(`/workspace/data/publications/${req.params.publication}/data/dimensionData.js`)
   const { seriesData } = require(`/workspace/data/publications/${req.params.publication}/data/seriesData.js`)
-  const ww_site_code = ['TW-CMS','UU-BHR']
+  const RegexParser = require("regex-parser");
+
+  //let dimensionNames = Object.entries(dimensionData).map(o => o[0])
+  // let queryNames = Object.entries(req.query).map(o => o[0])
+  // let queryValues = Object.entries(req.query).map(o => o[1])
+  let resultSet = seriesData
+  for (const [key, value] of Object.entries(req.query)) {
+    resultSet = [...resultSet.filter((dp) => dp[key].match(RegexParser(`/${value}/`)))]
+  }
 
   res.status(200).json({
     title: _title,
-    filter: _filter,
-    filterAst: ast,
-    dataset: seriesData.filter((dp)=> {return ww_site_code.includes(dp.ww_site_code)})
+    filter: req.query,
+    dataset: resultSet
   })
 }
 
 module.exports = {
   dimensions,
   publication,
-  publicationFiltered,
-  publicationList
+  publicationList,
+  publicationFilter
 }
 
 /*
