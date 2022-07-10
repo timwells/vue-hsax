@@ -11,7 +11,7 @@ const convertToCSV = (arr,delim) => {
   }).join('\n')
 }
 
-const dimensions = (req, res) => {
+const publicationDimensions = (req, res) => {
   const { publishingDetails } = require(`/workspace/data/publications/${req.params.publication}/data/publicationDetails.js`)  
   const { dimensionData } = require(`/workspace/data/publications/${req.params.publication}/data/dimensionData.js`) 
   const { sampleData } = require(`/workspace/data/publications/${req.params.publication}/data/sampleData.js`) 
@@ -25,17 +25,18 @@ const dimensions = (req, res) => {
   })
 }
 
-const publication = (req, res) => {
-  const { publishingDetails } = require(`/workspace/data/publications/${req.params.publication}/data/publicationDetails.js`)  
+const publicationData = (req, res) => {
   const { seriesData } = require(`/workspace/data/publications/${req.params.publication}/data/seriesData.js`)
   
-  res.status(200).json({
-    publishingDetails: publishingDetails,
-    dataset: seriesData
-  })
+  res.status(200).json({ dataset: seriesData })
 }
 
-// ../hsax/v1/publications/GOV-12999/list?dimension=ww_site_code
+const publicationDetails = (req, res) => {
+  const { publishingDetails } = require(`/workspace/data/publications/${req.params.publication}/data/publicationDetails.js`)  
+  
+  res.status(200).json({ publishingDetails: publishingDetails })
+}
+
 const publicationList = (req, res) => {
   const { publishingDetails } = require(`/workspace/data/publications/${req.params.publication}/data/publicationDetails.js`)  
   const { dimensionData } = require(`/workspace/data/publications/${req.params.publication}/data/dimensionData.js`) 
@@ -56,6 +57,7 @@ const publicationList = (req, res) => {
   } else {
     responseObj.dimensionNames = dimensionNames
   }
+
   res.status(200).json(responseObj)
 }
 
@@ -92,8 +94,9 @@ const publicationFilter = (req, res) => {
 }
 
 module.exports = {
-  dimensions,
-  publication,
+  publicationData,
+  publicationDetails,
+  publicationDimensions,
   publicationList,
   publicationFilter
 }

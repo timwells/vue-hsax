@@ -38,23 +38,34 @@ app.get('/v1/version-secured', (req, res) => {
 
 app.get('/v1/publications', (req, res) => {
   if(isApiKeyValid(req,API_KEY_NAME,config.apiKeys)) {
-    // res.contentType("application/json")
     const { publications } = require("./data/publications/index.js")
     publications(req,res)
   } else unauthorized(res)
 })
 
+app.get('/v1/publications/:publication', (req, res) => {
+  if(isApiKeyValid(req,API_KEY_NAME,config.apiKeys)) {
+    const { publicationData } = require(`./data/publications/${req.params.publication}/index.js`)
+    publicationData(req,res);
+  } else unauthorized(res)
+})
+
+app.get('/v1/publications/:publication/details', (req, res) => {
+  if(isApiKeyValid(req,API_KEY_NAME,config.apiKeys)) {
+    const { publicationDetails } = require(`./data/publications/${req.params.publication}/index.js`)
+    publicationDetails(req,res);
+  } else unauthorized(res)
+})
+
 app.get('/v1/publications/:publication/dimensions', (req, res) => {
   if(isApiKeyValid(req,API_KEY_NAME,config.apiKeys)) {
-    // res.contentType("application/json")
-    const { dimensions } = require(`./data/publications/${req.params.publication}/index.js`)
-    dimensions(req,res);
+    const { publicationDimensions } = require(`./data/publications/${req.params.publication}/index.js`)
+    publicationDimensions(req,res);
   } else unauthorized(res)
 })
 
 app.get('/v1/publications/:publication/list', (req, res) => {
   if(isApiKeyValid(req,API_KEY_NAME,config.apiKeys)) {
-    // res.contentType("application/json")
     const { publicationList } = require(`./data/publications/${req.params.publication}/index.js`)
     publicationList(req,res)
   } else unauthorized(res)
@@ -68,7 +79,7 @@ app.get('/v1/publications/:publication/filter', (req, res) => {
 })
 
 app.use((req, res, next) => {
-  res.status(404).send("Sorry can't find that!")
+  res.status(404).send(`Sorry can't find that path: ${req.path}`)
 })
 
 // Expose Express API as a single Cloud Function:

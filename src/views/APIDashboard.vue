@@ -16,6 +16,7 @@ import { mapState } from "vuex";
 const WWURIS = [
 	"/v1/publications",
 	"/v1/publications/GOV-12999",
+	"/v1/publications/GOV-12999/details",
 	"/v1/publications/GOV-12999/dimensions",
 	"/v1/publications/GOV-12999/list?dimension=ws",
 	"/v1/publications/GOV-12999/list?dimension=run_id",
@@ -24,7 +25,8 @@ const WWURIS = [
 	"/v1/publications/GOV-12999/list?dimension=date_sample_collected",
 	"/v1/publications/GOV-12999/list?dimension=rna_plate_mber",
 	"/v1/publications/GOV-12999/list?dimension=variant_detection_ind",
-	"/v1/publications/GOV-12999/list?dimension=data_model_version"
+	"/v1/publications/GOV-12999/list?dimension=data_model_version",
+	"/v1/publications/GOV-12999/filter?variant_detection_ind=CONFIRMED&variant_name=B.1.1.529-BA.1&ww_site_code=TW-*"
 ]
 
 export default ({
