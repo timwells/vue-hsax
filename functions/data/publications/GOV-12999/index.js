@@ -16,6 +16,7 @@ const dimensions = (req, res) => {
   const { dimensionData } = require(`/workspace/data/publications/${req.params.publication}/data/dimensionData.js`) 
   const { sampleData } = require(`/workspace/data/publications/${req.params.publication}/data/sampleData.js`) 
   const { links } = require(`/workspace/data/publications/${req.params.publication}/data/links.js`)
+  
   res.status(200).json({
     publishingDetails: publishingDetails,
     dimensions: dimensionData,
@@ -27,6 +28,7 @@ const dimensions = (req, res) => {
 const publication = (req, res) => {
   const { publishingDetails } = require(`/workspace/data/publications/${req.params.publication}/data/publicationDetails.js`)  
   const { seriesData } = require(`/workspace/data/publications/${req.params.publication}/data/seriesData.js`)
+  
   res.status(200).json({
     publishingDetails: publishingDetails,
     dataset: seriesData
@@ -102,7 +104,6 @@ module.exports = {
 // let queryNames = Object.entries(req.query).map(o => o[0])
 // let queryValues = Object.entries(req.query).map(o => o[1])
  
-
 https://github.com/jirutka/rsql-parser#examples
 
 /movies?query=name=="Kill Bill";year=gt=2003 or /movies?query=director.lastName==Nolan and year>=2000
