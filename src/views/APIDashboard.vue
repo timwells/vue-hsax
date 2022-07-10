@@ -15,6 +15,7 @@
 			</a-menu>
 		</a-dropdown-button>
 		<br/>
+		<br/>
 		<div> {{selectedUri}}</div>
 		<br/>
 		<json-viewer v-if="results && contentType=='application/json'" :value="results" :expand-depth="5"></json-viewer>
@@ -44,6 +45,7 @@ const WWURIS = [
 	"/v1/publications/GOV-12999/list?dimension=data_model_version",
 	"/v1/publications/GOV-12999/list?dimension=ws",
 	"/v1/publications/GOV-12999/filter?variant_detection_ind=CONFIRMED",
+	"/v1/publications/GOV-12999/filter?variant_detection_ind=POSSIBLE",
 	"/v1/publications/GOV-12999/filter?variant_detection_ind=CONFIRMED&variant_name=B.1.1.529-BA.1",
 	"/v1/publications/GOV-12999/filter?variant_detection_ind=CONFIRMED&variant_name=B.1.1.529-BA.1&ww_site_code=TW-*",
 ]

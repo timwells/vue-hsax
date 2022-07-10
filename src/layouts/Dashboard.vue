@@ -72,9 +72,7 @@
 	</div>
 </template>
 
-<script>
-	import { mapState } from "vuex";
-	
+<script>	
 	import DashboardSidebar from '../components/Sidebars/DashboardSidebar' ;
 	import DashboardHeader from '../components/Headers/DashboardHeader' ;
 	import DashboardFooter from '../components/Footers/DashboardFooter' ;
@@ -124,8 +122,6 @@
 		},
 		computed: {
 			// Sets layout's element's class based on route's meta data.
-			...mapState("app", ["version"]),
-			...mapState("ww", ["results"]),
 			layoutClass() {
 				return this.$route.meta.layoutClass ;
 			}

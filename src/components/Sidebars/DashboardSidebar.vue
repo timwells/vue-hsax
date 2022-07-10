@@ -13,7 +13,7 @@
 		:class="['ant-layout-sider-' + sidebarColor, 'ant-layout-sider-' + sidebarTheme]"
 		theme="light"
 		:style="{ backgroundColor: 'transparent',}">
-			<div class="brand"><img src="images/logo-ct-black.png" alt=""> <span>Muse Dashboard</span></div>
+			<div class="brand"><img src="images/logo-ct-black.png" alt=""> <span>Dashboard</span></div>
 			<hr>
 
 			<!-- Sidebar Navigation Menu -->
@@ -27,10 +27,10 @@
 								<path d="M14 9C13.4477 9 13 9.44771 13 10V16C13 16.5523 13.4477 17 14 17H16C16.5523 17 17 16.5523 17 16V10C17 9.44771 16.5523 9 16 9H14Z" fill="#111827"/>
 							</svg>
 						</span>
-						<span class="label">APIDashboard</span>
+						<span class="label">API</span>
 					</router-link>
 				</a-menu-item>
-				<a-menu-item>
+				<!--a-menu-item>
 					<router-link to="/dashboard">
 						<span class="icon">
 							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -41,8 +41,8 @@
 						</span>
 						<span class="label">Dashboard</span>
 					</router-link>
-				</a-menu-item>
-				<a-menu-item>
+				</a-menu-item-->
+				<!--a-menu-item>
 					<router-link to="/tables">
 						<span class="icon">
 							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -52,7 +52,7 @@
 						</span>
 						<span class="label">Tables</span>
 					</router-link>
-				</a-menu-item>
+				</a-menu-item-->
 				<!--a-menu-item>
 					<router-link to="/billing">
 						<span class="icon">
@@ -87,7 +87,7 @@
 						<span class="label">Profile</span>
 					</router-link>
 				</a-menu-item-->
-				<a-menu-item>
+				<!--a-menu-item>
 					<router-link to="/sign-in">
 						<span class="icon">
 							<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -96,7 +96,7 @@
 						</span>
 						<span class="label">Sign In</span>
 					</router-link>
-				</a-menu-item>
+				</a-menu-item-->
 				<!--a-menu-item>
 					<router-link to="/sign-up">
 						<span class="icon">
