@@ -1,0 +1,26 @@
+openapi: '3.0.2'
+info:
+  title: Waste Water
+  version: '1.0'
+servers:
+  - url: https://api.server.test/v1
+paths:
+  /test:
+    get:
+      responses:
+        '200':
+          description: OK
+  /publications:
+    get:
+      summary: Returns a list of current data publications.
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+
+  /publications/:publication":
+    get:
+      responses:
+        '200':
+          description: OK
