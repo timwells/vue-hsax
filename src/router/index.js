@@ -25,7 +25,7 @@ let routes = [
 	},
 	{
 		path: '/api-dashboard',
-		name: 'APIDashboard',
+		name: 'API Dashboard',
 		layout: "dashboard",
 		component: () => import(/* webpackChunkName: "dashboard" */ '../views/APIDashboard.vue'),
 	},

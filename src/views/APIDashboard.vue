@@ -1,18 +1,35 @@
 <template>
 	<div>
+		<a-radio-group 
+			@change="onContentTypeSelect" 
+			defaultValue="application/json">
+			<a-radio-button value="application/json">application/json</a-radio-button>
+			<a-radio-button value="text/csv">text/csv</a-radio-button>
+		</a-radio-group>
+		<br/>
+		<br/>
 		<a-dropdown-button>
 			Select API
-			<a-menu slot="overlay" @click="selectClickHandler">
+			<a-menu slot="overlay" @click="onApiSelect">
 				<a-menu-item v-for="wwuri in wwuris" :key="wwuri">{{wwuri}}</a-menu-item>
 			</a-menu>
 		</a-dropdown-button>
-
-		<json-viewer v-if="results" :value="results" :expand-depth="5"></json-viewer>
+		<br/>
+		<div> {{selectedUri}}</div>
+		<br/>
+		<json-viewer v-if="results && contentType=='application/json'" :value="results" :expand-depth="5"></json-viewer>
+		<pre v-if="results && contentType=='text/csv'">{{results}}</pre>
 	</div>
 </template>
 
 <script>
 import { mapState } from "vuex";
+
+const CONTENTTYPES = [
+	"application/json",
+	"text/csv"
+]
+
 const WWURIS = [
 	"/v1/publications",
 	"/v1/publications/GOV-12999",
@@ -35,19 +52,24 @@ export default ({
 	components:{
 	},
 	computed: {
-		...mapState("ww", ["results"]),
-	},
-	mounted() {
+		...mapState("ww", ["results","contentType"]),
 	},
 	data() {
 		return {
 			host: process.env.VUE_APP_WW_API_KEY,
 			wwuris : WWURIS,
+			contentTypes : CONTENTTYPES,
+			selectedContentType : "application/json",
+			selectedUri: ""
 		}
 	},
 	methods: { 
-		selectClickHandler(e) {
-			this.$store.dispatch("ww/getResults",{ path: e.key});
+		onApiSelect(e) {
+			this.selectedUri = e.key
+			this.$store.dispatch("ww/getResults",{ path: e.key, contentType: this.selectedContentType});
+		},
+		onContentTypeSelect(e) {
+			this.selectedContentType = e.target.value
 		}
 	}
 })
