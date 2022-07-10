@@ -1,14 +1,23 @@
 const { isComparisonNode, isLogicNode, isSelectorNode, isValueNode } = require("@rsql/ast");
 const { parse } = require("@rsql/parser");
 
-const _title = "WW GENOMICS SEQUENCING VARIANT DETECTION"
+const TEXT_CVS_FORMAT = "text/csv"
+const APP_JSON_FORMAT = "application/json"
+
+const convertToCSV = (arr,delim) => {
+  const array = [Object.keys(arr[0])].concat(arr)
+  return array.map(it => {
+    return Object.values(it).join(delim);
+  }).join('\n')
+}
 
 const dimensions = (req, res) => {
+  const { publishingDetails } = require(`/workspace/data/publications/${req.params.publication}/data/publicationDetails.js`)  
   const { dimensionData } = require(`/workspace/data/publications/${req.params.publication}/data/dimensionData.js`) 
   const { sampleData } = require(`/workspace/data/publications/${req.params.publication}/data/sampleData.js`) 
   const { links } = require(`/workspace/data/publications/${req.params.publication}/data/links.js`)
   res.status(200).json({
-    title: _title,
+    publishingDetails: publishingDetails,
     dimensions: dimensionData,
     links: links,
     sample: sampleData,
@@ -16,23 +25,24 @@ const dimensions = (req, res) => {
 }
 
 const publication = (req, res) => {
+  const { publishingDetails } = require(`/workspace/data/publications/${req.params.publication}/data/publicationDetails.js`)  
   const { seriesData } = require(`/workspace/data/publications/${req.params.publication}/data/seriesData.js`)
   res.status(200).json({
-    title:_title,
-    href: "",
+    publishingDetails: publishingDetails,
     dataset: seriesData
   })
 }
 
 // ../hsax/v1/publications/GOV-12999/list?dimension=ww_site_code
 const publicationList = (req, res) => {
+  const { publishingDetails } = require(`/workspace/data/publications/${req.params.publication}/data/publicationDetails.js`)  
   const { dimensionData } = require(`/workspace/data/publications/${req.params.publication}/data/dimensionData.js`) 
 
   let dimensionNames = Object.entries(dimensionData).map(o => o[0])
   const _queryDimension = req.query.dimension;
 
   let responseObj = {
-    title: _title,
+    title: publishingDetails.title,
     dimension: _queryDimension, 
     dataset: []
   } 
@@ -48,23 +58,35 @@ const publicationList = (req, res) => {
 }
 
 const publicationFilter = (req, res) => {
-  //const { dimensionData } = require(`/workspace/data/publications/${req.params.publication}/data/dimensionData.js`)
+  const { publishingDetails } = require(`/workspace/data/publications/${req.params.publication}/data/publicationDetails.js`)  
   const { seriesData } = require(`/workspace/data/publications/${req.params.publication}/data/seriesData.js`)
   const RegexParser = require("regex-parser");
 
-  //let dimensionNames = Object.entries(dimensionData).map(o => o[0])
-  // let queryNames = Object.entries(req.query).map(o => o[0])
-  // let queryValues = Object.entries(req.query).map(o => o[1])
   let resultSet = seriesData
   for (const [key, value] of Object.entries(req.query)) {
     resultSet = [...resultSet.filter((dp) => dp[key].match(RegexParser(`/${value}/`)))]
   }
 
-  res.status(200).json({
-    title: _title,
+  let responseObj = {
+    title: publishingDetails.title,
     filter: req.query,
     dataset: resultSet
-  })
+  } 
+
+  // determine Client desired Format - Default Json
+  let ClientFormats = req.header('Accept').split(';');
+  if(ClientFormats.length > 0) {
+    if(ClientFormats.includes(TEXT_CVS_FORMAT)) {
+      res.status(200).contentType(TEXT_CVS_FORMAT).send(convertToCSV(resultSet,','));      
+    }
+    else {
+      // Default json
+      res.status(200).contentType(APP_JSON_FORMAT).json(responseObj)
+    }
+  } else {
+      // Default json
+      res.status(200).contentType(APP_JSON_FORMAT).json(responseObj)
+  }
 }
 
 module.exports = {
@@ -75,6 +97,12 @@ module.exports = {
 }
 
 /*
+
+//let dimensionNames = Object.entries(dimensionData).map(o => o[0])
+// let queryNames = Object.entries(req.query).map(o => o[0])
+// let queryValues = Object.entries(req.query).map(o => o[1])
+ 
+
 https://github.com/jirutka/rsql-parser#examples
 
 /movies?query=name=="Kill Bill";year=gt=2003 or /movies?query=director.lastName==Nolan and year>=2000
