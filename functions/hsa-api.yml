@@ -1,0 +1,133 @@
+# ------------------------------------------------------------------------------------------------------------------
+# Example HSA API Specification to discover and
+# access published data.
+# /v1/publications
+# /v1/publications/GOV-12999
+# /v1/publications/GOV-12999/details
+# /v1/publications/GOV-12999/dimensions
+# /v1/publications/GOV-12999/list?dimension=run_id
+# /v1/publications/GOV-12999/list?dimension=ww_site_code
+# /v1/publications/GOV-12999/list?dimension=variant_name
+# /v1/publications/GOV-12999/list?dimension=date_sample_collected
+# /v1/publications/GOV-12999/list?dimension=rna_plate_mber
+# /v1/publications/GOV-12999/list?dimension=variant_detection_ind
+# /v1/publications/GOV-12999/list?dimension=data_model_version
+# /v1/publications/GOV-12999/list?dimension=ws
+# /v1/publications/GOV-12999/filter?variant_detection_ind=CONFIRMED
+# /v1/publications/GOV-12999/filter?variant_detection_ind=POSSIBLE
+# /v1/publications/GOV-12999/filter?variant_detection_ind=CONFIRMED&variant_name=B.1.1.529-BA.1
+# /v1/publications/GOV-12999/filter?variant_detection_ind=CONFIRMED&variant_name=B.1.1.529-BA.1&ww_site_code=TW-*
+#
+# OpenAPI 2.0                    OpenAPI 3.0
+# '#/definitions/User'         → '#/components/schemas/User'
+# '#/parameters/offsetParam'   → '#/components/parameters/offsetParam'
+# '#/responses/ErrorResponse'  → '#/components/responses/ErrorResponse'
+# -------------------------------------------------------------------------------------------------------------------
+openapi: '3.0.2'
+info:
+  title: "UK HSA Data API"
+  description: "UK HSA Data Discovery and API Access specification"
+  version: '1.0'
+servers:
+  - url: https://api.server.test/v1
+paths:
+  /publications:
+    get:
+      tags:
+      - Current available publications
+      summary: Returns a list of current data publications.
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/publications_200'
+
+  /publications/:publication":
+    get:
+      tags:
+      - An available publication
+      responses:
+        '200':
+          description: OK
+
+  /publications/:publication/details":
+    get:
+      tags:
+      - An available publication
+      responses:
+        '200':
+          description: OK
+
+  /publications/:publication/dimensions:
+    get:
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/publicationDimensions'
+
+  /publications/:publication/list:
+    get:
+      responses:
+        '200':
+          description: OK
+
+components:
+  schemas:
+    publications_200:
+      title: Successful publication response
+      type: object
+      properties:
+        self:
+          type: string
+        links:
+          type: array
+          items:
+            $ref: '#/components/schemas/publication'
+    
+    publication:
+      title: Published item
+      type: object
+      properties:
+        publication:
+          type: string
+    
+    publicationDetails:
+      title: Published data set details
+      type: object
+      properties:
+        title: 
+          type: string
+          example: "WW GENOMICS SEQUENCING VARIANT DETECTION"
+        publishedDate:
+          type: string 
+          example: "2022-05-23"
+        publisher:
+          type: string
+          example: "Waste Water Genomics Sequenceing"
+        publisherContact:
+          type: string
+          example: "Addres... / Email / Phone"
+        href:
+          type: string
+          example: "url to online information"
+
+    publicationDimensions:
+      title: Published data set dimensions - names, types, examples
+      type: array
+      $ref: '#/components/schemas/publicationDimension'
+      
+    publicationDimension:
+      title: Published dimension - name, type, example
+      type: object
+      properties:
+        name:
+          type: string
+          example: "run_id"
+        type:
+          type: string
+          example: "number or string"

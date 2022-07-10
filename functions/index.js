@@ -57,6 +57,13 @@ app.get('/v1/publications/:publication/details', (req, res) => {
   } else unauthorized(res)
 })
 
+app.get('/v1/publications/:publication/sample-insights', (req, res) => {
+  if(isApiKeyValid(req,API_KEY_NAME,config.apiKeys)) {
+    const { publicationSampleInsights } = require(`./data/publications/${req.params.publication}/index.js`)
+    publicationSampleInsights(req,res);
+  } else unauthorized(res)
+})
+
 app.get('/v1/publications/:publication/dimensions', (req, res) => {
   if(isApiKeyValid(req,API_KEY_NAME,config.apiKeys)) {
     const { publicationDimensions } = require(`./data/publications/${req.params.publication}/index.js`)

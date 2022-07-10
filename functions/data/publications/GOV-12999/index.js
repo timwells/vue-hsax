@@ -12,13 +12,31 @@ const convertToCSV = (arr,delim) => {
 }
 
 const publicationDimensions = (req, res) => {
+  //const { publishingDetails } = require(`/workspace/data/publications/${req.params.publication}/data/publicationDetails.js`)  
+  const { dimensionData } = require(`/workspace/data/publications/${req.params.publication}/data/dimensionData.js`) 
+  //const { sampleData } = require(`/workspace/data/publications/${req.params.publication}/data/sampleData.js`) 
+  //const { links } = require(`/workspace/data/publications/${req.params.publication}/data/links.js`)
+  
+  res.status(200).json(dimensionData)
+
+  /*
+    res.status(200).json({
+      // publishingDetails: publishingDetails,
+      dimensions: dimensionData,
+      // links: links,
+      //sample: sampleData,
+    })
+  */
+}
+
+const publicationSampleInsights = (req, res) => {
   const { publishingDetails } = require(`/workspace/data/publications/${req.params.publication}/data/publicationDetails.js`)  
   const { dimensionData } = require(`/workspace/data/publications/${req.params.publication}/data/dimensionData.js`) 
   const { sampleData } = require(`/workspace/data/publications/${req.params.publication}/data/sampleData.js`) 
   const { links } = require(`/workspace/data/publications/${req.params.publication}/data/links.js`)
   
   res.status(200).json({
-    publishingDetails: publishingDetails,
+    details: publishingDetails,
     dimensions: dimensionData,
     links: links,
     sample: sampleData,
@@ -34,7 +52,7 @@ const publicationData = (req, res) => {
 const publicationDetails = (req, res) => {
   const { publishingDetails } = require(`/workspace/data/publications/${req.params.publication}/data/publicationDetails.js`)  
   
-  res.status(200).json({ publishingDetails: publishingDetails })
+  res.status(200).json(publishingDetails)
 }
 
 const publicationList = (req, res) => {
@@ -94,6 +112,7 @@ const publicationFilter = (req, res) => {
 }
 
 module.exports = {
+  publicationSampleInsights,
   publicationData,
   publicationDetails,
   publicationDimensions,
