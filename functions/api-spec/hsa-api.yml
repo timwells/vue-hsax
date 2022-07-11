@@ -42,12 +42,14 @@ paths:
         - ApiKeyAuth: []
       summary: Returns a list of current data publications.
       responses:
-        "200":
+        '200':
           description: Successful response
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/publications'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
 
   /publications/:publication:
     get:
@@ -66,6 +68,8 @@ paths:
             text/csv:
               schema:
                 type: string
+        '401':
+          $ref: '#/components/responses/Unauthorized'
 
   /publications/:publication/details:
     get:
@@ -80,6 +84,8 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/publicationDetails'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
                 
   /publications/:publication/sample-insights:
     get:
@@ -94,6 +100,8 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/publicationSampleInsights'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
 
   /publications/:publication/dimensions:
     get:
@@ -108,7 +116,8 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/publicationDimensions'
-        '401'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
 
   /publications/:publication/list:
     get:
@@ -119,6 +128,9 @@ paths:
       responses:
         '200':
           description: OK
+
+        '401':
+          $ref: '#/components/responses/Unauthorized'
 
 components:
   responses:
@@ -134,7 +146,7 @@ components:
         application/json:
           schema:
             $ref: '#/components/schemas/Error'
-            
+
   schemas:
     publications:
       title: Publication
@@ -211,6 +223,18 @@ components:
       items:
         oneOf:
           - $ref: './common/waste-water-sample.yml'
+    
+    # Schema for error response body
+    Error:
+      type: object
+      properties:
+        code:
+          type: string
+        message:
+          type: string
+      required:
+        - code
+        - message
 
   # https://swagger.io/docs/specification/authentication/api-keys/
   securitySchemes:
