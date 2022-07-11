@@ -1,0 +1,37 @@
+type: object
+properties:
+  run_id: 
+    type: integer
+    example: 183
+  ww_site_code: 
+    type: string
+    example: "TW-CMS"
+  rna_plate_mber: 
+    type: number
+    example: 2204122
+  date_sample_collected: 
+    type: string
+    example: "09022022:0000"
+  variant_name: 
+    type: string
+    example: "B.1.1.529-BA.1"
+  variant_detection_ind: 
+    type: string
+    example: "CONFIRMED"
+  sample_id: 
+    type: string
+    example: "2109907-27"
+  data_model_version: 
+    type: integer
+    example: 2
+required:
+  - run_id
+  - ww_site_code
+  - rna_plate_mber
+  - date_sample_collected 
+  - variant_name
+  - variant_detection_ind 
+  - sample_id
+  - data_model_version
+
+

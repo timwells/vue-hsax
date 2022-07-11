@@ -5,6 +5,7 @@
 # /v1/publications/GOV-12999
 # /v1/publications/GOV-12999/details
 # /v1/publications/GOV-12999/dimensions
+# /v1/publications/GOV-12999/sample-insights
 # /v1/publications/GOV-12999/list?dimension=run_id
 # /v1/publications/GOV-12999/list?dimension=ww_site_code
 # /v1/publications/GOV-12999/list?dimension=variant_name
@@ -28,13 +29,15 @@ info:
   title: "UK HSA Data API"
   description: "UK HSA Data Discovery and API Access specification"
   version: '1.0'
+
 servers:
   - url: https://api.server.test/v1
+
 paths:
   /publications:
     get:
       tags:
-      - Current available publications
+      - List available publications
       summary: Returns a list of current data publications.
       responses:
         "200":
@@ -42,26 +45,52 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/publications_200'
+                $ref: '#/components/schemas/publications'
 
-  /publications/:publication":
+  /publications/:publication:
     get:
       tags:
-      - An available publication
+      - List available publication data items
+      summary: Returns a list of current data items
       responses:
         '200':
           description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/publicationData'
+            text/csv:
+              schema:
+                type: string
 
-  /publications/:publication/details":
+  /publications/:publication/details:
     get:
       tags:
-      - An available publication
+      - List an available publication detail
       responses:
         '200':
           description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/publicationDetails'
+                
+  /publications/:publication/sample-insights:
+    get:
+      tags:
+      - List an available publication as sample / insight
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/publicationSampleInsights'
 
   /publications/:publication/dimensions:
     get:
+      tags:
+      - List an available publication dimensions
       responses:
         '200':
           description: OK
@@ -72,14 +101,16 @@ paths:
 
   /publications/:publication/list:
     get:
+      tags:
+      - Tags to-do
       responses:
         '200':
           description: OK
 
 components:
   schemas:
-    publications_200:
-      title: Successful publication response
+    publications:
+      title: Publication
       type: object
       properties:
         self:
@@ -87,15 +118,8 @@ components:
         links:
           type: array
           items:
-            $ref: '#/components/schemas/publication'
-    
-    publication:
-      title: Published item
-      type: object
-      properties:
-        publication:
-          type: string
-    
+            type: string
+
     publicationDetails:
       title: Published data set details
       type: object
@@ -119,7 +143,8 @@ components:
     publicationDimensions:
       title: Published data set dimensions - names, types, examples
       type: array
-      $ref: '#/components/schemas/publicationDimension'
+      items:
+        $ref: '#/components/schemas/publicationDimension'
       
     publicationDimension:
       title: Published dimension - name, type, example
@@ -131,3 +156,32 @@ components:
         type:
           type: string
           example: "number or string"
+
+    publicationSampleInsights:
+      title: Published Sample Insights
+      type: object
+      properties:
+        details:
+          type: object
+          $ref: '#/components/schemas/publicationDetails'
+        dimensions:
+          type: array
+          items:
+            $ref: '#/components/schemas/publicationDimension'
+        links:
+          type: array
+          items:
+            type: string
+        sample:
+          # https://swagger.io/docs/specification/data-models/oneof-anyof-allof-not/
+          oneOf:
+            - $ref: './common/waste-water-sample.yml'
+            # - add object reference alternatives
+
+    publicationData:
+      title: Published data
+      type: array
+      items:
+        oneOf:
+          - $ref: './common/waste-water-sample.yml'
+

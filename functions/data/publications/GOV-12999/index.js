@@ -12,21 +12,9 @@ const convertToCSV = (arr,delim) => {
 }
 
 const publicationDimensions = (req, res) => {
-  //const { publishingDetails } = require(`/workspace/data/publications/${req.params.publication}/data/publicationDetails.js`)  
   const { dimensionData } = require(`/workspace/data/publications/${req.params.publication}/data/dimensionData.js`) 
-  //const { sampleData } = require(`/workspace/data/publications/${req.params.publication}/data/sampleData.js`) 
-  //const { links } = require(`/workspace/data/publications/${req.params.publication}/data/links.js`)
-  
-  res.status(200).json(dimensionData)
 
-  /*
-    res.status(200).json({
-      // publishingDetails: publishingDetails,
-      dimensions: dimensionData,
-      // links: links,
-      //sample: sampleData,
-    })
-  */
+  res.status(200).json(dimensionData)
 }
 
 const publicationSampleInsights = (req, res) => {

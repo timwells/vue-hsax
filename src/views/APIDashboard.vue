@@ -36,6 +36,7 @@ const WWURIS = [
 	"/v1/publications/GOV-12999",
 	"/v1/publications/GOV-12999/details",
 	"/v1/publications/GOV-12999/dimensions",
+	"/v1/publications/GOV-12999/sample-insights",
 	"/v1/publications/GOV-12999/list?dimension=run_id",
 	"/v1/publications/GOV-12999/list?dimension=ww_site_code",
 	"/v1/publications/GOV-12999/list?dimension=variant_name",
