@@ -108,6 +108,7 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/publicationDimensions'
+        '401'
 
   /publications/:publication/list:
     get:
@@ -120,6 +121,20 @@ paths:
           description: OK
 
 components:
+  responses:
+    NotFound:
+      description: The specified resource was not found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+    Unauthorized:
+      description: Unauthorized
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Error'
+            
   schemas:
     publications:
       title: Publication
@@ -196,6 +211,7 @@ components:
       items:
         oneOf:
           - $ref: './common/waste-water-sample.yml'
+
   # https://swagger.io/docs/specification/authentication/api-keys/
   securitySchemes:
     ApiKeyAuth:        # arbitrary name for the security scheme
