@@ -38,6 +38,8 @@ paths:
     get:
       tags:
       - List available publications
+      security:
+        - ApiKeyAuth: []
       summary: Returns a list of current data publications.
       responses:
         "200":
@@ -51,6 +53,8 @@ paths:
     get:
       tags:
       - List available publication data items
+      security:
+        - ApiKeyAuth: []
       summary: Returns a list of current data items
       responses:
         '200':
@@ -67,6 +71,8 @@ paths:
     get:
       tags:
       - List an available publication detail
+      security:
+        - ApiKeyAuth: []
       responses:
         '200':
           description: OK
@@ -79,6 +85,8 @@ paths:
     get:
       tags:
       - List an available publication as sample / insight
+      security:
+        - ApiKeyAuth: []
       responses:
         '200':
           description: OK
@@ -91,6 +99,8 @@ paths:
     get:
       tags:
       - List an available publication dimensions
+      security:
+        - ApiKeyAuth: []
       responses:
         '200':
           description: OK
@@ -103,6 +113,8 @@ paths:
     get:
       tags:
       - Tags to-do
+      security:
+        - ApiKeyAuth: []
       responses:
         '200':
           description: OK
@@ -184,4 +196,13 @@ components:
       items:
         oneOf:
           - $ref: './common/waste-water-sample.yml'
+  # https://swagger.io/docs/specification/authentication/api-keys/
+  securitySchemes:
+    ApiKeyAuth:        # arbitrary name for the security scheme
+      type: apiKey
+      in: header       # can be "header", "query" or "cookie"
+      name: x-api-key  # name of the header, query parameter or cookie
+
+security:
+  - ApiKeyAuth: []     # use the same name as under securitySchemes
 
