@@ -1,7 +1,7 @@
 import axios from "axios"
 
-const HOST = process.env.VUE_APP_WW_API_HOST
-const API_KEY = process.env.VUE_APP_WW_API_KEY
+const HOST = process.env.VUE_APP_API_HOST
+const API_KEY = process.env.VUE_APP_API_KEY
 
 const HEADERS = { 'x-api-key' : API_KEY }
 
@@ -19,7 +19,7 @@ const mutations = {
 const actions = {
     getResults({ commit },{ path, contentType }) {
         commit("SET_RESULTS", null);
-        commit("SET_CONTENT_TYPE", null);        
+        commit("SET_CONTENT_TYPE", null);
         HEADERS['Accept'] = contentType;
         const options = { 
             method: 'GET', 

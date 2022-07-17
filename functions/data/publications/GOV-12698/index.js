@@ -1,6 +1,3 @@
-// const { isComparisonNode, isLogicNode, isSelectorNode, isValueNode } = require("@rsql/ast");
-const { parse } = require("@rsql/parser");
-
 const TEXT_CVS_FORMAT = "text/csv"
 const APP_JSON_FORMAT = "application/json"
 
@@ -107,24 +104,3 @@ module.exports = {
   publicationList,
   publicationFilter
 }
-
-/*
-
-//let dimensionNames = Object.entries(dimensionData).map(o => o[0])
-// let queryNames = Object.entries(req.query).map(o => o[0])
-// let queryValues = Object.entries(req.query).map(o => o[1])
- 
-https://github.com/jirutka/rsql-parser#examples
-
-/movies?query=name=="Kill Bill";year=gt=2003 or /movies?query=director.lastName==Nolan and year>=2000
-/movies?query=director.lastName==Nolan and year>=2000
-
-- name=="Kill Bill";year=gt=2003
-- name=="Kill Bill" and year>2003
-- genres=in=(sci-fi,action);(director=='Christopher Nolan',actor==*Bale);year=ge=2000
-- genres=in=(sci-fi,action) and (director=='Christopher Nolan' or actor==*Bale) and year>=2000
-- director.lastName==Nolan;year=ge=2000;year=lt=2010
-- director.lastName==Nolan and year>=2000 and year<2010
-- genres=in=(sci-fi,action);genres=out=(romance,animated,horror),director==Que*Tarantino
-- genres=in=(sci-fi,action) and genres=out=(romance,animated,horror) or director==Que*Tarantino
-*/

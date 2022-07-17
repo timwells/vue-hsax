@@ -9,6 +9,7 @@ const links = [
     "/v1/publications/GOV-12999/list?dimension=data_model_version",
     "/v1/publications/GOV-12999/filter"
 ]
+
 module.exports = {
     links
 }
