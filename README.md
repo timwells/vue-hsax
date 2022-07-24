@@ -1,6 +1,9 @@
 # vue-hsax
 
-
+### Vue
+* npm run serve
+* npm run build
+ 
 ### Firebase Reminder
 * firebase init
    - Are you read to proceed? Y
