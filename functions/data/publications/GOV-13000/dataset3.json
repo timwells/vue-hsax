@@ -1,0 +1,4645 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.09623708905043285,
+          51.526497124883846
+        ]
+      },
+      "properties": {
+        "organisation": "St Luke's community centre",
+        "cool_space_name": "St Luke's community centre",
+        "cs_address1": "90 Central Street ",
+        "cs_postcode": "EC1V 8AJ",
+        "opening_hour": "Mon - thurs - 9 - 7pm, fri 9 - 5pm, sat - sun - 11- 3pm",
+        "accessible": null,
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Air conditioning\", \"Natural cooling/ventilation\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "40",
+        "site_s_maximum_capacity_1": "40",
+        "open_10_till_5": "Yes",
+        "tier": "Tier 1",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.02168431863038599,
+          51.43241443597922
+        ]
+      },
+      "properties": {
+        "organisation": "Better (Lewisham)",
+        "cool_space_name": "Bellingham Leisure & Lifestyle Centre",
+        "cs_address1": "5 Randlesdown Road",
+        "cs_postcode": "SE6 3BT",
+        "opening_hour": "09:00-22:00 weekdays, 09:00-17:30 weekends and 09:00-19:00 Public Holidays",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Natural cooling/ventilation\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "10",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": "Yes",
+        "cs_address2": "London",
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.05787300398102846,
+          51.436280332819294
+        ]
+      },
+      "properties": {
+        "organisation": "Better (Lewisham)",
+        "cool_space_name": "Forest Hill Pools",
+        "cs_address1": "Dartmouth Road",
+        "cs_postcode": "SE23 3HZ",
+        "opening_hour": "06:30-22:00 weekdays, 08:00-18:00 Weekends 09:00-19:00 Public Holidays",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Air conditioning\", \"Natural cooling/ventilation\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "20",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 1",
+        "water_nearby": "Not sure",
+        "cs_address2": "London",
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.14011882536240325,
+          51.51365141857201
+        ]
+      },
+      "properties": {
+        "organisation": "Everyone Active (Wesminster)",
+        "cool_space_name": "Marshall Street Leisure Centre",
+        "cs_address1": "15 Marshall Street ",
+        "cs_postcode": "W1F 7EL",
+        "opening_hour": "mon-fri 6:30am-10:00pm sat & sun 8am-8pm",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Air conditioning\", \"Natural cooling/ventilation\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "5",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 1",
+        "water_nearby": "Not sure",
+        "cs_address2": "London",
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.015910968377357296,
+          51.46418624008965
+        ]
+      },
+      "properties": {
+        "organisation": "Better (Lewisham)",
+        "cool_space_name": "Glass Mill Leisure Centre",
+        "cs_address1": "41 Loampit Vale",
+        "cs_postcode": "SE13 7FT",
+        "opening_hour": "06:30-22:00 weekdays, 07:00-17:00 Weekends 08:00-19:00 Public Holidays",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Air conditioning\", \"Natural cooling/ventilation\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "30",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 1",
+        "water_nearby": "other",
+        "cs_address2": "London",
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.09937340008937201,
+          51.50761826842248
+        ]
+      },
+      "properties": {
+        "organisation": "Tate ",
+        "cool_space_name": "Tate Modern",
+        "cs_address1": "Bankside",
+        "cs_postcode": "SE1 9TG",
+        "opening_hour": "10.00 - 18.00 Daily ",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Air conditioning\", \"Natural cooling/ventilation\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": null,
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 1",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.08380905937908795,
+          51.594622555661076
+        ]
+      },
+      "properties": {
+        "organisation": "Vision Redbridge, Culture & Leisure (Redbridge)",
+        "cool_space_name": "Fullwell Cross Library",
+        "cs_address1": "14 High Street",
+        "cs_postcode": "IG6 2EA",
+        "opening_hour": "Monday: 10:00 am - 8:00 pm\nTuesday: 10:00 am - 6:00 pm\nWednesday: 10:00 am - 8:00 pm\nThursday: 10:00 am - 6:00 pm\nFriday: 10:00 am - 8:00 pm\nSaturday: 10:00 am - 4:00 pm\nSunday: Closed",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Air conditioning\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "15",
+        "site_s_maximum_capacity_1": "30",
+        "open_10_till_5": "Yes",
+        "tier": "Tier 1",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0740288237025582,
+          51.58818401419242
+        ]
+      },
+      "properties": {
+        "organisation": "Haringey Libraries",
+        "cool_space_name": "Marcus Garvey Library (Library & Customer Service Centre)",
+        "cs_address1": "Inside Tottenham Green Leisure Centre",
+        "cs_postcode": "N15 4JA",
+        "opening_hour": "Currently MON, WEDS, FRI & SAT 10:00am - 4:00pm, TUES & THURS 10:00 - 6:00PM",
+        "accessible": "[ \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Air conditioning\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "20",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": "Not sure",
+        "cs_address2": "1 Philip LaneLondon",
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": "No",
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.17377882185025514,
+          51.499501024932066
+        ]
+      },
+      "properties": {
+        "organisation": "Goethe-Institut London",
+        "cool_space_name": "Library (1st floor)",
+        "cs_address1": "50 Princes Gate",
+        "cs_postcode": "SW7 2PH",
+        "opening_hour": "Monday to Thursday 09:00 to 19:00, Friday 09:00 to 16:00. Closed on weekends",
+        "accessible": "[ \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Natural cooling/ventilation\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "15",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": "Exhibition Road",
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.32380283566871254,
+          51.500878047650716
+        ]
+      },
+      "properties": {
+        "organisation": "Ealing and Houslow VCS",
+        "cool_space_name": "West Ealing Library",
+        "cs_address1": "Melbourne Ave",
+        "cs_postcode": "W13 9BT",
+        "opening_hour": "Tuesday - Thursday 10am - 4pm",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available a short walk from the site (and signposted from the Cool Space)",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Natural cooling/ventilation\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "25",
+        "site_s_maximum_capacity_1": "40",
+        "open_10_till_5": "No",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.20325454576759105,
+          51.476944988444224
+        ]
+      },
+      "properties": {
+        "organisation": "Hammersmith and Fulham (Libraries)",
+        "cool_space_name": "Fulham Library",
+        "cs_address1": "598 Fulham Road",
+        "cs_postcode": "SW6 5NX",
+        "opening_hour": "Mon - Thu 10:00-19:00, Fri - Sat 10:00-17:00, Sun 11:00-17:00, Closed on public holidays",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Stand up fans\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "50",
+        "site_s_maximum_capacity_1": "200",
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.33609438276614734,
+          51.5099285700401
+        ]
+      },
+      "properties": {
+        "organisation": "Ealing (Libraries)",
+        "cool_space_name": "Hanwell Community Library",
+        "cs_address1": "Cherington Road",
+        "cs_postcode": "W73HL",
+        "opening_hour": "Monday- Closed, Tuesday 10-1 then 2-5, Wednesday 10-1 then 2-5, Thursday 2-5, Friday 10-1 then 2-5, Saturday 10-4, Sunday- Closed",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Natural cooling/ventilation\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "20",
+        "site_s_maximum_capacity_1": "50",
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.22366629184841172,
+          51.494584691998604
+        ]
+      },
+      "properties": {
+        "organisation": "Hammersmith and Fulham (Libraries)",
+        "cool_space_name": "Hammersmith Library",
+        "cs_address1": "60 Shepherds Bush Road",
+        "cs_postcode": "W6 7AT",
+        "opening_hour": "Mon - Thur 10am -7pm, Fri/Sat 10am -5pm",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Natural cooling/ventilation\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": null,
+        "site_s_maximum_capacity_1": "60",
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.07004317242601882,
+          51.57763501193072
+        ]
+      },
+      "properties": {
+        "organisation": "Vision RCL",
+        "cool_space_name": "Gants Hill Library",
+        "cs_address1": "490 Cranbrook Road",
+        "cs_postcode": "IG2 6LA",
+        "opening_hour": "10-5 Monday-Friday 10-4 Saturday Closed Sunday",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Natural cooling/ventilation\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "20",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 1",
+        "water_nearby": "Not sure",
+        "cs_address2": "Ilford",
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": "Trees to cover benches",
+        "are_there_water_features_on_site": "[\"other\"]",
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.08917383144805116,
+          51.50616701196941
+        ]
+      },
+      "properties": {
+        "organisation": "Southwark Cathedral",
+        "cool_space_name": "Southwark Cathedral",
+        "cs_address1": "London Bridge",
+        "cs_postcode": "SE1 9DA",
+        "opening_hour": "9am - 6pm",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Natural cooling/ventilation\", \"other\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "300",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": "other",
+        "cs_address2": "London",
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.05805402490313978,
+          51.62389867837247
+        ]
+      },
+      "properties": {
+        "organisation": "Enfield (Libraries)",
+        "cool_space_name": "Edmonton Green Library",
+        "cs_address1": "36-44 South Mall, Edmonton",
+        "cs_postcode": "N9 0TN",
+        "opening_hour": "Monday-Thursday 9am-7pm. Friday 9am-5.30pm. Saturday 9am-5pm. Closed Sunday. Closed on public holidays.",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "I don’t know/ it’s not possible to  monitor indoor temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Natural cooling/ventilation\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "153",
+        "site_s_maximum_capacity_1": "220",
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.08621060616669068,
+          51.651689730027236
+        ]
+      },
+      "properties": {
+        "organisation": "Enfield (Libraries)",
+        "cool_space_name": "Enfield Town Library",
+        "cs_address1": "66 Church Street",
+        "cs_postcode": "EN2 6AX",
+        "opening_hour": "Monday, Tuesday and Thursday 9am-8pm. wednesday, Friday and Saturday 9am-5.30pm. Sunday 12-4pm. Closed on public holidays",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "I don’t know/ it’s not possible to  monitor indoor temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Natural cooling/ventilation\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "40",
+        "site_s_maximum_capacity_1": "70",
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.060762813410736013,
+          51.44113102542818
+        ]
+      },
+      "properties": {
+        "organisation": "Horniman Museum and Gardens",
+        "cool_space_name": "Horniman Museum",
+        "cs_address1": "100 London Rd",
+        "cs_postcode": "SE23 3PQ",
+        "opening_hour": "the Museum will be open from the 17 May, Thursday through to Tuesday 10am to 5.30pm (the Museum will close on Wednesdays for the foreseeable future)",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Air conditioning\", \"Natural cooling/ventilation\", \"Ceiling fans\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "40",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "no",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": "Forest Hill",
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.12720582123573715,
+          51.49087101914661
+        ]
+      },
+      "properties": {
+        "organisation": "Tate",
+        "cool_space_name": "Tate Britain",
+        "cs_address1": "Millbank",
+        "cs_postcode": "SW1P 4RG",
+        "opening_hour": "10.00 - 18.00 Daily ",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Air conditioning\", \"Natural cooling/ventilation\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": null,
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 1",
+        "water_nearby": null,
+        "cs_address2": "Westminster",
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2167318222147378,
+          51.531241016988815
+        ]
+      },
+      "properties": {
+        "organisation": "Westminster City Council",
+        "cool_space_name": "Moberly Sports Centre",
+        "cs_address1": "25 Chamberlayne Road",
+        "cs_postcode": "NW10 3NB",
+        "opening_hour": "6.30am to 10pm Monday to Friday.  8am to 8pm Saturday and Sunday",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Air conditioning\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": null,
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 1",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.15313083042547762,
+          51.51769402260532
+        ]
+      },
+      "properties": {
+        "organisation": "The Wallace Collection",
+        "cool_space_name": "The Wallace Collection",
+        "cs_address1": "Hertford House",
+        "cs_postcode": "W1U 3BN",
+        "opening_hour": "10am - 5pm",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Air conditioning\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "30",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": "Not sure",
+        "cs_address2": "Manchester Square",
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1050738323876075,
+          51.505697019531475
+        ]
+      },
+      "properties": {
+        "organisation": "Jubilee Hall Trust",
+        "cool_space_name": "Colombo Sports Centre",
+        "cs_address1": "34-68 Colombo Street",
+        "cs_postcode": "SE1 8DP",
+        "opening_hour": "Mon - Fri: 06.45 - 22.00 Saturday: 09.00 - 17.00 Sunday: 09.00 - 17.00",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Natural cooling/ventilation\", \"Ceiling fans\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "5",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": "Southwark",
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.13033482203621977,
+          51.50663101597379
+        ]
+      },
+      "properties": {
+        "organisation": "Institute of Contemporary Arts",
+        "cool_space_name": "Institute of Contemporary Arts Bookstore",
+        "cs_address1": "The Mall",
+        "cs_postcode": "SW1Y 5AH",
+        "opening_hour": "Tuesdays to Sundays, 12 noon - 11pm",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Natural cooling/ventilation\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "10",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "no",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1095448255519458,
+          51.594575997988194
+        ]
+      },
+      "properties": {
+        "organisation": "London Borough of Haringey",
+        "cool_space_name": "The Mall Wood Green - Guest Lounge",
+        "cs_address1": "159 High Road",
+        "cs_postcode": "N22 6YQ",
+        "opening_hour": "Mon to Sat 9:30am to 5:30pm. Sun 11am – 5pm",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Air conditioning\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "6",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 1",
+        "water_nearby": "We have a partnership with a nearby facility participating in the London Refill scheme",
+        "cs_address2": "Wood Green, London",
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": "Yes",
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.18900881623883092,
+          51.51728102465773
+        ]
+      },
+      "properties": {
+        "organisation": "Westminster City Council",
+        "cool_space_name": "Porchester Centre",
+        "cs_address1": "Queensway",
+        "cs_postcode": "W2 5HS",
+        "opening_hour": "6.30am to 10pm Monday to Friday.  8am to 8pm Saturday and Sunday",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are not available",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Air conditioning\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "2",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": "Not sure",
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1767578167395969,
+          51.52376402452465
+        ]
+      },
+      "properties": {
+        "organisation": "Westminster City Council",
+        "cool_space_name": "Little Venice Sports Centre",
+        "cs_address1": "10 Crompton Street",
+        "cs_postcode": "W2 1ND",
+        "opening_hour": "6.30am to 10pm Monday to Friday.  8am to 8pm Saturday and Sunday",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are not available",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "I don’t know/ it’s not possible to  monitor indoor temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Air conditioning\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": null,
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 1",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 26
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.012004966215849,
+          51.4261098845014
+        ]
+      },
+      "properties": {
+        "organisation": "Lewisham (Libraries)",
+        "cool_space_name": "Downham Library",
+        "cs_address1": "7-9 Moorside Road",
+        "cs_postcode": "BR1 5EP",
+        "opening_hour": "10am-5pm Tuesday - Saturday",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Air conditioning\", \"Natural cooling/ventilation\" ,\"Stand up fans\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "60",
+        "site_s_maximum_capacity_1": "150",
+        "open_10_till_5": "No",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 27
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.08252511039805524,
+          51.53558985347796
+        ]
+      },
+      "properties": {
+        "organisation": "Barking & Dagenham CVS",
+        "cool_space_name": "Ripple Centre",
+        "cs_address1": "121-125 Ripple Road",
+        "cs_postcode": "IG11 7FN",
+        "opening_hour": "8.30am - 9pm",
+        "accessible": "[ \"people with disabilities\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "10",
+        "site_s_maximum_capacity_1": "10",
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 28
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.09056021829530325,
+          51.51242354830781
+        ]
+      },
+      "properties": {
+        "organisation": "Bloomberg",
+        "cool_space_name": "London Mithraeum Bloomberg SPACE",
+        "cs_address1": "12 Walbrook",
+        "cs_postcode": "EC4N 8AA",
+        "opening_hour": "10am - 6pm Tuesday - Saturday 12pm - 5pm Sunday, Monday Closed.",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "50",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.08133357329440061,
+          51.42003998675818
+        ]
+      },
+      "properties": {
+        "organisation": "Croydon; Lambeth",
+        "cool_space_name": "Upper Norwood Library Hub - cafe",
+        "cs_address1": "39 Westow Hill",
+        "cs_postcode": "SE19 1TQ",
+        "opening_hour": "Mon - Closed\nTue  - 10:00 - 18:00\nWed  - 10:00 - 18:00\nThur  - 10:00 - 20:00\nFri - 10:00 - 18:00\nSat - 10:00 - 18:00\nSun - Closed",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "\"Air conditioning\", \"Ceiling fans\", \"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "15",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "No",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.02427712296089753,
+          51.47770742399345
+        ]
+      },
+      "properties": {
+        "organisation": "Lewisham (Libraries)",
+        "cool_space_name": "Deptford Lounge",
+        "cs_address1": "9 Griffin Street",
+        "cs_postcode": "SE8 4RJ",
+        "opening_hour": "10am-5pm Tuesday - Saturday",
+        "accessible": "[\"people with disabilities\",\"children\",\"pregnant women\",\"older people\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\", \"Stand up fans\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "80",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 31
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.03635217748525805,
+          51.45541910090236
+        ]
+      },
+      "properties": {
+        "organisation": "Eco Communities CIC",
+        "cool_space_name": "Crofton Park Community Library",
+        "cs_address1": "375 Brockely Road",
+        "cs_postcode": "SE4 2AG",
+        "opening_hour": "Monday - 9am to 5pm Tuesday 9am to 7pm Thursday 9am to 7pm Friday 9am to 1pm Saturday 9am to 1pm",
+        "accessible": "[\"people with disabilities\",\"children\",\"pregnant women\",\"older people\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Natural cooling/ventilation\" ]",
+        "seating_available": "No",
+        "maximum_seated_capacity": "5",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "No",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.132868093647982,
+          51.474361661361485
+        ]
+      },
+      "properties": {
+        "organisation": "Eritrean Muslim Community Organisation ",
+        "cool_space_name": "EMCA- Al Nagashi Mosque & Community Centre",
+        "cs_address1": "283-291 Wandsworth Road",
+        "cs_postcode": "SW8 2MD",
+        "opening_hour": "Mon - Sat 10am - 6pm \nSunday 10am - 3pm",
+        "accessible": "[\"people with disabilities\",\"older people\",\"pregnant women\",\"children\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Air conditioning\" ,\"Natural cooling/ventilation\",\"Stand up fans\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "80",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 1",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 33
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1781636374029565,
+          51.48226877738588
+        ]
+      },
+      "properties": {
+        "organisation": "The Exchange",
+        "cool_space_name": "Town Square, Conversation Room and Learning Room",
+        "cs_address1": "The Old Library",
+        "cs_postcode": "DA8 1RA",
+        "opening_hour": "Thur - Sat 9am - 11pm\nSun 10am - 4pm",
+        "accessible": "[\"people with disabilities\",\"older people\",\"pregnant women\",\"children\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[ \"Natural cooling/ventilation\" ]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "50",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "No",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 34
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.023487573698850784,
+          51.43595744056638
+        ]
+      },
+      "properties": {
+        "organisation": "Lewisham (Libraries)",
+        "cool_space_name": "Grove Park Library - cafe",
+        "cs_address1": "Somertrees Avenue",
+        "cs_postcode": "SE12 0BX",
+        "opening_hour": "Monday 10am - 7pm \nTuesday 10am - 7pm \nFriday 2pm - 6pm\nSaturday 10am - 5pm",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "I don’t know/ it’s not possible to  monitor indoor temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Stand up fans\",\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "20",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "No",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 35
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.07564016460187685,
+          51.55838000768096
+        ]
+      },
+      "properties": {
+        "organisation": "Vision Redbridge, Culture & Leisure (Redbridge)",
+        "cool_space_name": "Redbridge Central Library",
+        "cs_address1": "Clements Road",
+        "cs_postcode": "IG1 1EA",
+        "opening_hour": "10am to 8pm Monday to Friday, 10am - 5pm Saturday, Closed Sundays",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "300",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 1",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 36
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0280502181625228,
+          51.501079995816966
+        ]
+      },
+      "properties": {
+        "organisation": "West Silvertown Foundation",
+        "cool_space_name": "Royal Wharf Community Dock",
+        "cs_address1": "2 John Harrison Square",
+        "cs_postcode": "E16 2ZA",
+        "opening_hour": "Tuesday  9am-4pm, Wednesday 9.30am-6pm, Thursday 10am-9pm",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "40",
+        "site_s_maximum_capacity_1": "100",
+        "open_10_till_5": "Yes",
+        "tier": "Tier 1",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 37
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.16331980354000877,
+          51.40040006949419
+        ]
+      },
+      "properties": {
+        "organisation": "Better (Merton)",
+        "cool_space_name": "Canons Leisure Centre",
+        "cs_address1": "Madeira Rd",
+        "cs_postcode": "CR4 4HD",
+        "opening_hour": "06:00-22.30",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "\"Air conditioning\",     \"Stand up fans\",     \"Natural cooling/ventilation\"",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "500",
+        "site_s_maximum_capacity_1": "1000",
+        "open_10_till_5": "Yes",
+        "tier": "Tier 1",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 38
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.08481982049454648,
+          51.55214004210091
+        ]
+      },
+      "properties": {
+        "organisation": "New Unity CIO",
+        "cool_space_name": "Newington Green Meeting House",
+        "cs_address1": "39a Newington Green",
+        "cs_postcode": "N16 9PR",
+        "opening_hour": "Thursdays 12pm - 6pm, Fridays 12pm - 6pm, closed on bank holidays",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "20",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 39
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.014870267294917978,
+          51.4034400540273
+        ]
+      },
+      "properties": {
+        "organisation": "Better (Bromley)",
+        "cool_space_name": "Bromley Central Library",
+        "cs_address1": "High Street Bromley",
+        "cs_postcode": "BR1 1EX",
+        "opening_hour": "Monday to Friday 9am - 7pm, Saturdays 9am - 5pm",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are not available",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "\"Air conditioning\",     \"Stand up fans\",     \"Natural cooling/ventilation\"",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "80",
+        "site_s_maximum_capacity_1": "300",
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.020900117583460394,
+          51.420640059009706
+        ]
+      },
+      "properties": {
+        "organisation": "Better (Bromley)",
+        "cool_space_name": "Burnt Ash Library",
+        "cs_address1": "Burnt Ash Lane",
+        "cs_postcode": "BR1 5AF",
+        "opening_hour": "Monday 9.30am - 1pm, 2pm - 5.30pm, Thursday 9.30am - 1pm, 2pm - 5.30pm, Saturday 9.30 - 1pm, 2 - 5.30pm",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are not available",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": " \"Stand up fans\",     \"Natural cooling/ventilation\"",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "10",
+        "site_s_maximum_capacity_1": "100",
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 41
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.03195017546188832,
+          51.60741001896426
+        ]
+      },
+      "properties": {
+        "organisation": "Vision Redbridge, Culture & Leisure (Redbridge)",
+        "cool_space_name": "Woodford Green Library & Gym",
+        "cs_address1": "Snakes Lane West",
+        "cs_postcode": "IG8 0DX",
+        "opening_hour": "6am - 10pm Monday to Friday,\n8am - 6pm Saturdays and Sundays",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "10",
+        "site_s_maximum_capacity_1": "20",
+        "open_10_till_5": "Yes",
+        "tier": "Tier 1",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.03620982194011166,
+          51.40806003143525
+        ]
+      },
+      "properties": {
+        "organisation": "Better (Bromley)",
+        "cool_space_name": "Beckenham Library",
+        "cs_address1": "Beckenham Road",
+        "cs_postcode": "BR3 4PE",
+        "opening_hour": "Mon 9.30am - 7pm, Tues and Weds 9.30am - 5.30pm, Thurs closed, Fri 9.30am - 5.30, Sat 9am - 5pm.",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are not available",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "\"I don’t know/ it’s not possible to  monitor indoor temperature",
+        "what_are_the_cooling_facilities_available_on_site": " \"Stand up fans\", ",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "25",
+        "site_s_maximum_capacity_1": "150",
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 43
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.017640176080745265,
+          51.378160021688146
+        ]
+      },
+      "properties": {
+        "organisation": "Better (Bromley)",
+        "cool_space_name": "Hayes Library",
+        "cs_address1": "Hayes Street",
+        "cs_postcode": "BR2 7LH",
+        "opening_hour": "Tues 9.30am - 1pm, 2pm - 5.30pm, Fri 9.30am - 1pm, 2pm - 5.30pm, Sat 9.30am - 1pm, 2pm - 5pm ",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are not available",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "Stand up fans",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "10",
+        "site_s_maximum_capacity_1": "100",
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 44
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.04525014396199001,
+          51.43617995017683
+        ]
+      },
+      "properties": {
+        "organisation": "Better (Bromley)",
+        "cool_space_name": "Mottingham Library",
+        "cs_address1": "31 Mottingham Road",
+        "cs_postcode": "SE9 4QZ",
+        "opening_hour": "Mon 9.30am - 1pm, 2pm - 7pm, Weds, 9.30am - 1pm, 2pm - 5.30pm, Fri 9.30am - 1pm, 2pm - 5.30pm, Sat 9.30am - 1pm, 2pm - 5pm",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are not available",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "Stand up fans",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "10",
+        "site_s_maximum_capacity_1": "100",
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.07582979484541216,
+          51.598480007510126
+        ]
+      },
+      "properties": {
+        "organisation": "Bruce Castle Museum",
+        "cool_space_name": "Bruce Castle Museum",
+        "cs_address1": "Lordship Lane, Tottenham",
+        "cs_postcode": "N17 8NU",
+        "opening_hour": "Wednesday to Sunday, 1pm - 5pm (not open on Bank Holidays)",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": " \"Stand up fans\",     \"Natural cooling/ventilation\"",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "15",
+        "site_s_maximum_capacity_1": "100",
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.06491018308170994,
+          51.42024001000708
+        ]
+      },
+      "properties": {
+        "organisation": "Better (Bromley)",
+        "cool_space_name": "Chislehurst Library",
+        "cs_address1": "Red Hill",
+        "cs_postcode": "BR7 6DA",
+        "opening_hour": "Mon and Tues 9.30am -5.30pm, Weds Closed, Thurs 9.30am - 7pm, Fri 9.30am - 5.30pm, Sat 9.30am - 5pm ",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are not available",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "Stand up fans",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "20",
+        "site_s_maximum_capacity_1": "150",
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 47
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.03672017351214889,
+          51.31218001894806
+        ]
+      },
+      "properties": {
+        "organisation": "Better (Bromley)",
+        "cool_space_name": "Biggin Hill Library",
+        "cs_address1": "Church Road",
+        "cs_postcode": "TN16 3LB",
+        "opening_hour": "Mon - Fri 9.30am - 7pm, Sat 9.30am - 5pm, Sun 11am - 1pm ",
+        "accessible": "[ \"people with disabilities\", \"children\", \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": " \"Stand up fans\",     \"Natural cooling/ventilation\"",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "20",
+        "site_s_maximum_capacity_1": "150",
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.14319983574800432,
+          51.52646002390913
+        ]
+      },
+      "properties": {
+        "organisation": "St Mary Magdalene Church ",
+        "cool_space_name": "St Mary Magdalene Church",
+        "cs_address1": "Munster Square",
+        "cs_postcode": "NW1 4DQ",
+        "opening_hour": null,
+        "accessible": "[children, \"older people\", \"pregnant women\" ]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": " \"Natural cooling/ventilation\"",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "250",
+        "site_s_maximum_capacity_1": "250",
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.06938016005155591,
+          51.389310008265014
+        ]
+      },
+      "properties": {
+        "organisation": "Better",
+        "cool_space_name": "Petts Wood Library",
+        "cs_address1": "Franks Wood Avenue",
+        "cs_postcode": "BR5 1BP",
+        "opening_hour": "Mon 9.30 - 5.30, Tues 9,30 - 5.30, Thurs 9.30 - 7. Fri 9.30 - 5.30, Sat 9.30 - 5",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are not available",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Stand up fans\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "8",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.051359825622044025,
+          51.41402002746312
+        ]
+      },
+      "properties": {
+        "organisation": "Better",
+        "cool_space_name": "Penge Library",
+        "cs_address1": "46 Green Lanes",
+        "cs_postcode": "SE20 7JX",
+        "opening_hour": "Mon 9.30 - 7, Tues 9.30 - 5.30, Weds 9.30 - 5.30, Thurs 9.30 - 5.30, Fri 9.30 - 5.30, Sat 9.30 - 5",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Stand up fans\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "15",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.22855982817265574,
+          51.49244000258917
+        ]
+      },
+      "properties": {
+        "organisation": "LBHF",
+        "cool_space_name": "Kings Mall Hammersmith",
+        "cs_address1": "Kings Mall",
+        "cs_postcode": "W6 9HW",
+        "opening_hour": "Mon-Sat 6:30am - 9:30pm, Sun 8am - 6pm",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\"]",
+        "seating_available": "No",
+        "maximum_seated_capacity": "1",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 52
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.007079819439702881,
+          51.39974002283728
+        ]
+      },
+      "properties": {
+        "organisation": "Better",
+        "cool_space_name": "Shortlands Library",
+        "cs_address1": "Shortlands Road",
+        "cs_postcode": "BR2 0JP",
+        "opening_hour": "Mon 9.30 - 1, 2 - 5.30, Tues 9.30 - 1, 2 - 5.30, Fri 9.30 - 1, 2 - 5.30, Sat 9.30 - 1, 2 - 5",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are not available",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Stand up fans\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "8",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 53
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.10078016441675502,
+          51.377020011950144
+        ]
+      },
+      "properties": {
+        "organisation": "Better",
+        "cool_space_name": "Oprington Library",
+        "cs_address1": "The Walnuts Centre",
+        "cs_postcode": "BR6 0TW",
+        "opening_hour": "Mon 9.30 - 7, Tues 9.30 - 5.30, Weds 9,30 - 5.30, Thurs 9.30 - 7, Fri 9,30 - 5.30, Sat 9.30 - 5",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Stand up fans\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "25",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.014069831048176003,
+          51.37571002103295
+        ]
+      },
+      "properties": {
+        "organisation": "Better",
+        "cool_space_name": "West Wickham Library",
+        "cs_address1": "Glebe Way",
+        "cs_postcode": "BR4 0SH",
+        "opening_hour": "Mon, 9,30 - 7, Tues 9.30 - 5.30, Thurs 9.30 - 5.30, Fri 9.30 - 5.30, Sat 9.30 - 5",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are not available",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "I don’t know/ it’s not possible to  monitor indoor temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Stand up fans\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "10",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 55
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.11028017207864818,
+          51.49334001888414
+        ]
+      },
+      "properties": {
+        "organisation": "Greenwich Leisure Limted",
+        "cool_space_name": "Abbey Wood Library",
+        "cs_address1": "Eysham Drive",
+        "cs_postcode": "SE2 9PT",
+        "opening_hour": "Open all week apart from Wednesday and Sunday",
+        "accessible": "[\"people with disabilities\",\"older people\",\"pregnant women\",\"children\"]",
+        "toilets": "Toilets are not available",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\",\"Stand up fans\",\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "8",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 56
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.021230211713598308,
+          51.47697000592142
+        ]
+      },
+      "properties": {
+        "organisation": "Greenwich Leisure Limited",
+        "cool_space_name": "Blackheath Library",
+        "cs_address1": "Old Dover Road",
+        "cs_postcode": "SE3 7BT",
+        "opening_hour": "6 days a week apart from Sunday",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\",\"Stand up fans\",\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "35",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 57
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.09954015437370234,
+          51.40480001869846
+        ]
+      },
+      "properties": {
+        "organisation": "Better",
+        "cool_space_name": "St. Paul's Cray Library",
+        "cs_address1": "Mickleham Road",
+        "cs_postcode": "BR5 2RW",
+        "opening_hour": "Mon, Tues, Thurs 9.30 - 1, 2 - 5.30, Sat 9.30 - 1, 2 - 5",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are not available",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "I don’t know/ it’s not possible to  monitor indoor temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Stand up fans\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "8",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 58
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.04344014080809277,
+          51.38990000012645
+        ]
+      },
+      "properties": {
+        "organisation": "Better",
+        "cool_space_name": "Southborough Library",
+        "cs_address1": "Southborough Lane",
+        "cs_postcode": "BR2 8AP",
+        "opening_hour": "Tues, Wed, Fri 9.30 - 1, 2 - 5.30, Sat 9.30 - 1, 2 - 5",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are not available",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "I don’t know/ it’s not possible to  monitor indoor temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Stand up fans\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "10",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 59
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.02539013432740782,
+          51.55005000934743
+        ]
+      },
+      "properties": {
+        "organisation": "London Borough of Newham",
+        "cool_space_name": "Forest Gate Library",
+        "cs_address1": "6-8 Woodgrange Road",
+        "cs_postcode": "E7 9DF",
+        "opening_hour": "Monday - Saturday -9am-8pm, Sunday closed, Public Holidays - Closed",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "20",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 60
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0368602042995357,
+          51.48057001501962
+        ]
+      },
+      "properties": {
+        "organisation": "Greenwicxh Leisure Limited",
+        "cool_space_name": "Charlton House Library",
+        "cs_address1": "Charlton Road",
+        "cs_postcode": "SE7 8RE",
+        "opening_hour": "Everey day apart from Wednesday and Sunday",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Stand up fans\",\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "4",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 61
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.025260177702455103,
+          51.53018001241102
+        ]
+      },
+      "properties": {
+        "organisation": "London Borough of Newham",
+        "cool_space_name": "Plaistow Library",
+        "cs_address1": "North Street",
+        "cs_postcode": "E13 9HL",
+        "opening_hour": "Monday - Tuesday - 9:30am-5:30pm, Wednesday - 9:30am-5pm, Thursday - 1pm-8pm, Friday - 9.30am-5pm, Saturday - 9.30am-5.30pm  Sunday closed, Public Holidays - Closed ",
+        "accessible": "[\"children\",\"people with disabilities\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "I don’t know/ it’s not possible to  monitor indoor temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Stand up fans\",\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "20",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 62
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.035050184161512093,
+          51.5363700231354
+        ]
+      },
+      "properties": {
+        "organisation": "London Borough of Newham",
+        "cool_space_name": "Green Street Library",
+        "cs_address1": "337 - 341 Green Street",
+        "cs_postcode": "E13 9AR",
+        "opening_hour": "Monday - Saturday -10am-8pm, Sunday closed, Public Holidays - Closed ",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are not available",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "20",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 63
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.05591017776225546,
+          51.51527001564665
+        ]
+      },
+      "properties": {
+        "organisation": "London Borough of Newham",
+        "cool_space_name": "Beckton Library",
+        "cs_address1": "1 Kingsford Way",
+        "cs_postcode": "E6 5JQ",
+        "opening_hour": "Monday - Saturday -10am-8pm, Sunday closed, Public Holidays - Closed ",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "10",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 64
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.33582984950007283,
+          51.58002007519896
+        ]
+      },
+      "properties": {
+        "organisation": "Harrow Library Service",
+        "cool_space_name": "Greenhill LIbrary",
+        "cs_address1": "Perceval Square, College Road",
+        "cs_postcode": "HA1 1GX",
+        "opening_hour": "Monday - Saturday 10:00 - 18:00  Sunday 11:00 - 15:00",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "50",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 65
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.09246982140935832,
+          51.52004998434943
+        ]
+      },
+      "properties": {
+        "organisation": "Barbican & Community Libraries",
+        "cool_space_name": "Barbican Library",
+        "cs_address1": "Silk Street",
+        "cs_postcode": "EC2Y 8DS",
+        "opening_hour": "Mon/Wed/Fri 9.30-5.30, Tues/Thurs 9.30-7.30, Sat 9.30-4",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "50",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "No",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 66
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1067998344939807,
+          51.51562002240204
+        ]
+      },
+      "properties": {
+        "organisation": "Barbican & Community Libraries",
+        "cool_space_name": "Shoe Lane Library",
+        "cs_address1": "1 Little New Street",
+        "cs_postcode": "EC4A 3JR",
+        "opening_hour": "Mon/Wed/Thurs/Fri- 9.30-5.30, Tue 9.30-6.30",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are not available",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "30",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "No",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 67
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.06364017902210273,
+          51.43378000995322
+        ]
+      },
+      "properties": {
+        "organisation": "Greenwich Leisure Limited",
+        "cool_space_name": "Coldharbour Library",
+        "cs_address1": "William Barefoot Drive",
+        "cs_postcode": "SE9 3AY",
+        "opening_hour": "Every day apart from Wednesday and Sunday",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Stand up fans\",\"Air conditioning\",\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "6",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 68
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0569601773917134,
+          51.53325001871632
+        ]
+      },
+      "properties": {
+        "organisation": "London Borough of Newham",
+        "cool_space_name": "East Ham Library",
+        "cs_address1": "328 Barking Road",
+        "cs_postcode": "E6 2RT",
+        "opening_hour": "Monday - Saturday -9am-8pm, Sunday closed, Public Holidays - Closed ",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "20",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 69
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.004360168241587103,
+          51.54269999197898
+        ]
+      },
+      "properties": {
+        "organisation": "London Borough of Newham",
+        "cool_space_name": "Stratford Library",
+        "cs_address1": "3 The Grove",
+        "cs_postcode": "E15 1EL",
+        "opening_hour": "Monday - Saturday -9am-8pm, Sunday 12pm-4pm, Public Holidays - Closed ",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "30",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 70
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.06274015211780093,
+          51.50093000495879
+        ]
+      },
+      "properties": {
+        "organisation": "London Borough of Newham",
+        "cool_space_name": "North Woolwich Library",
+        "cs_address1": "5 Pier Parade",
+        "cs_postcode": "E16 2LJ",
+        "opening_hour": "Monday - 9.30am-5.30pm, Tuesday - 9.30am - 8pm, Wednesday - 9.30am -5.30pm, Thursday - 9.30am-8pm, Friday - 9.30am-5pm, Saturday - 9.30am-5.30pm  Sunday closed, Public Holidays - Closed ",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "2",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "No",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 71
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 72,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.04701017001062034,
+          51.550720019992724
+        ]
+      },
+      "properties": {
+        "organisation": "London Borough of Newham",
+        "cool_space_name": "Manor Park Library",
+        "cs_address1": "685-693 Romford Road",
+        "cs_postcode": "E12 5AD",
+        "opening_hour": "Monday - Saturday -10am-8pm, Sunday closed, Public Holidays - Closed ",
+        "accessible": "[\"people with disabilities\",\"children\",\"pregnant women\",\"older people\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "12",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 72
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.07663984155246377,
+          51.51544000185902
+        ]
+      },
+      "properties": {
+        "organisation": "Barbican & Community Libraries",
+        "cool_space_name": "Artizan Street Library & Community Centre",
+        "cs_address1": "1 Artizan Street",
+        "cs_postcode": "E1 7AF",
+        "opening_hour": "Mon 8-7, Tue-Fri 8-5.30",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "10",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 73
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.03171016191503986,
+          51.514580021799325
+        ]
+      },
+      "properties": {
+        "organisation": "London Borough of Newham",
+        "cool_space_name": "Custom House Library",
+        "cs_address1": "Prince Regent Lane",
+        "cs_postcode": "E16 3JJ",
+        "opening_hour": "Monday - 10am-6pm, Tuesday -10am-6pm, Wednesday - Closed, Thursday - 10am-6pm , Friday - Closed, Saturday - 10am-6pm,  Sunday closed, Public Holidays - Closed ",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "I don’t know/ it’s not possible to  monitor indoor temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Stand up fans\",\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "10",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "No",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 74
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.010440146513048263,
+          51.516829999138935
+        ]
+      },
+      "properties": {
+        "organisation": "London Borough of Newham",
+        "cool_space_name": "Canning Town Library",
+        "cs_address1": "18 Rathbone Market",
+        "cs_postcode": "E16 1EH",
+        "opening_hour": "Monday - Saturday -9am-8pm, Sunday closed, Public Holidays - Closed ",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "20",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.008130205622536078,
+          51.484680003939665
+        ]
+      },
+      "properties": {
+        "organisation": "Greenwich Leisure Limited",
+        "cool_space_name": "Greenwich Centre Library",
+        "cs_address1": "12 Lambarde Square",
+        "cs_postcode": "SE10 9HB",
+        "opening_hour": "Seven days a week",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\",\"Stand up fans\",\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "70",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 76
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0711701751529391,
+          51.43712001000225
+        ]
+      },
+      "properties": {
+        "organisation": "Greenwich Leisure Limited",
+        "cool_space_name": "New Eltham Library",
+        "cs_address1": "Southwood Road",
+        "cs_postcode": "SE9 3QT",
+        "opening_hour": "Every day apart from Wednesday and Sunday",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\",\"Stand up fans\",\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "20",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 77
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.05698014383432071,
+          51.45193001830939
+        ]
+      },
+      "properties": {
+        "organisation": "Greenwich Leisure Limited",
+        "cool_space_name": "Eltham Centre Library",
+        "cs_address1": "Archery Road",
+        "cs_postcode": "SE9 1HA",
+        "opening_hour": "Seven days a week",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\",\"Stand up fans\",\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "40",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 78
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0850201765500873,
+          51.4787700088912
+        ]
+      },
+      "properties": {
+        "organisation": "Greenwich Leisure Limited",
+        "cool_space_name": "Slade Library",
+        "cs_address1": "Erindale, Plumstead",
+        "cs_postcode": "SE18 2QQ",
+        "opening_hour": "Every day apart from Wednesday and Sunday",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\",\"Stand up fans\",\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "7",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 79
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.09666018653506162,
+          51.486500007086896
+        ]
+      },
+      "properties": {
+        "organisation": "Greenwich Leisure Limited",
+        "cool_space_name": "Plumstead Centre Library",
+        "cs_address1": "232 Plumstead High Street",
+        "cs_postcode": "SE18 1JL",
+        "opening_hour": "Seven days a week",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\",\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "50",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 80
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 81,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.10885015608923967,
+          51.50746003941904
+        ]
+      },
+      "properties": {
+        "organisation": "Greenwich Leisure Limited",
+        "cool_space_name": "Thamesmere Library",
+        "cs_address1": "Thamesmere Drive",
+        "cs_postcode": "SE28 8DT",
+        "opening_hour": "Seven days a week",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\",\"Stand up fans\",\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "20",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 81
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.06561020597626425,
+          51.489250033989585
+        ]
+      },
+      "properties": {
+        "organisation": "Greenwich Leisure Limited",
+        "cool_space_name": "Woolwich Library",
+        "cs_address1": "35 Wellington Street",
+        "cs_postcode": "SE18 6HQ",
+        "opening_hour": "seven days a week",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\",\"Stand up fans\",\"Ceiling fans\",\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "70",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 82
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.011519894351229087,
+          51.4781200847145
+        ]
+      },
+      "properties": {
+        "organisation": "Greenwich Library Limited",
+        "cool_space_name": "West Greenwich Library",
+        "cs_address1": "Greenwich High Road,",
+        "cs_postcode": "SE10 8NN",
+        "opening_hour": "Evert day apart from Wednesday and Sunday",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are not available",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\",\"Stand up fans\",\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "20",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 83
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 84,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.09260983602242234,
+          51.50127001856775
+        ]
+      },
+      "properties": {
+        "organisation": "St George-the-Martyr Parish Church",
+        "cool_space_name": "St George-the-Martyr Parish Church",
+        "cs_address1": "Borough High Street",
+        "cs_postcode": "SE1 1JA",
+        "opening_hour": "10am to 4pm",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Stand up fans\",\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "250",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "No",
+        "tier": "Tier 1",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 84
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.22367982579008994,
+          51.50806001247111
+        ]
+      },
+      "properties": {
+        "organisation": "Westfield White City",
+        "cool_space_name": "Westfield White City",
+        "cs_address1": "Ariel Way",
+        "cs_postcode": "W12 7GF",
+        "opening_hour": "10am to 9pm apart from Sunday 12-6pm",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "0",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 85
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 86,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.214129774890635,
+          51.50331000910029
+        ]
+      },
+      "properties": {
+        "organisation": "Holland Park Benefice",
+        "cool_space_name": "St John the Baptist, Holland Road",
+        "cs_address1": "St John the Baptist",
+        "cs_postcode": "W14 8AH",
+        "opening_hour": "10.00-4.00 Mon-Thurs  5-8 Sunday ",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"none of the above\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "300",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "No",
+        "tier": "Tier 1",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 86
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.003190165699922835,
+          51.50292002835702
+        ]
+      },
+      "properties": {
+        "organisation": "AEG Europe",
+        "cool_space_name": "The O2",
+        "cs_address1": "Peninsula Square",
+        "cs_postcode": "SE100DX",
+        "opening_hour": "10:00 - 01:00 daily (except 25th Dec)",
+        "accessible": "[\"people with disabilities\",\"children\",\"none of the above\",\"pregnant women\",\"older people\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Natural cooling/ventilation\",\"Air conditioning\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "5000",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 1",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 87
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 88,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.22480987683775652,
+          51.50665998104071
+        ]
+      },
+      "properties": {
+        "organisation": "Wood Lane Factory St",
+        "cool_space_name": "The Westfield Mall",
+        "cs_address1": "White City Wood Lane",
+        "cs_postcode": "W127DP",
+        "opening_hour": "8-23:00Pm",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\",\"Stand up fans\",\"Ceiling fans\",\"Natural cooling/ventilation\"]",
+        "seating_available": "No",
+        "maximum_seated_capacity": "150",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 1",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 88
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 89,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.06428987037853671,
+          51.34218002486956
+        ]
+      },
+      "properties": {
+        "organisation": "Croydon Libraries",
+        "cool_space_name": "Selsdon Library (shares site with Sainsburys",
+        "cs_address1": "Addington Road",
+        "cs_postcode": "CR2 8LA",
+        "opening_hour": "Monday 10am - 6pm Wednesday 10am - 6pm Saturday 9am - 5pm ",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "40",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 89
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.309229852750385,
+          51.42693004104867
+        ]
+      },
+      "properties": {
+        "organisation": "THE YMCA HAWKER CENTRE",
+        "cool_space_name": "THE YMCA HAWKER CENTRE",
+        "cs_address1": "Lower Ham Road",
+        "cs_postcode": "KT2 5BH",
+        "opening_hour": "mid week 7am - 9.00pm weekends 8 - 4.00pm",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Stand up fans\",\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "50",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 1",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 90
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.09942982806100394,
+          51.372360013087814
+        ]
+      },
+      "properties": {
+        "organisation": "Croydon Libraries",
+        "cool_space_name": "Croydon Central Library (Clocktower)",
+        "cs_address1": "Katharine Street",
+        "cs_postcode": "CR91ET",
+        "opening_hour": "Monday Tuesday Wednesday Friday 10am - 6pm Saturday 9am - 5pm",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available a short walk from the site (and signposted from the Cool Space)",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "200",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 91
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.16032977401788906,
+          51.48675003617694
+        ]
+      },
+      "properties": {
+        "organisation": "National Army Museum",
+        "cool_space_name": "National Army Museum",
+        "cs_address1": "Royal Hospital Road, Chelsea",
+        "cs_postcode": "SW3 4HT",
+        "opening_hour": "10.00 -17.30 (17.00 Last Admission)",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "0",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 1",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 92
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 93,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.16550983068786815,
+          51.42600003847644
+        ]
+      },
+      "properties": {
+        "organisation": "Wandsworth Libraries",
+        "cool_space_name": "Tooting Library",
+        "cs_address1": "75 Mitcham Road",
+        "cs_postcode": "SW17 9PD",
+        "opening_hour": "Mon, Tue, Thu 9:00 AM to 7:00 PM. Fri and Sat 9:00 AM to 5:00 PM, Sun 1:00 PM to 5:00 PM.  Closed Wed.",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\",\"Natural cooling/ventilation\",\"Stand up fans\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "10",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 93
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.17512462835492018,
+          51.46717445471899
+        ]
+      },
+      "properties": {
+        "organisation": "Wandsworth Libraries",
+        "cool_space_name": "York Gardens Library",
+        "cs_address1": "34 Lavender Road",
+        "cs_postcode": "SW11 2UG",
+        "opening_hour": "Tue 12:00PM-6:00PM, Wed 10:00AM-7:00PM, Thu 12:00PM-5:00PM, Fri 11:00AM-5:00PM and Sat 10:00AM-2:30PM.  Closed Mon, Sun and Bank Holidays",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Stand up fans\",\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "6",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 94
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1925630775564498,
+          51.45616389146442
+        ]
+      },
+      "properties": {
+        "organisation": "Wandsworth Libraries",
+        "cool_space_name": "Wandsworth Town Library",
+        "cs_address1": "11 Garratt Lane",
+        "cs_postcode": "SW18 4AQ",
+        "opening_hour": "Tue 9:00 AM-7:00 PM, Wed 9:00 AM-7:00 PM, Thu 9:00 AM-7:00 PM, Fri 9:00 AM-5:00 PM, Sat 9:00 AM-5:00 PM. Closed Mon and Sun",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Stand up fans\",\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "10",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 95
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.07236987218988479,
+          51.5463800548456
+        ]
+      },
+      "properties": {
+        "organisation": "halkevi-The Kurdish and Turkish Community Centre",
+        "cool_space_name": "Halkevi",
+        "cs_address1": "31-33 dalston Lane",
+        "cs_postcode": "E8 3DF",
+        "opening_hour": "10:00 to 15:00 pm",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "80",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 1",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 96
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.20872983144238463,
+          51.44354003944333
+        ]
+      },
+      "properties": {
+        "organisation": "WANDSWORTH LIBRARIES",
+        "cool_space_name": "SOUTHFIELDS LIBRARY",
+        "cs_address1": "300 Wimbledon Park Road",
+        "cs_postcode": "SW19 6NL",
+        "opening_hour": "TUE, WED 9:00 AM TO 7:00 PM, FRI 9:00 AM TO 5:00 PM AND SAT 10:00 AM TO 2:30 PM. CLOSED MON, THU AND SUN",
+        "accessible": "[\"children\",\"people with disabilities\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "6",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 97
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 98,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1645698280846325,
+          51.46410001569731
+        ]
+      },
+      "properties": {
+        "organisation": "WANDSWORTH LIBRARIES",
+        "cool_space_name": "BATTERSEA LIBRARY",
+        "cs_address1": "265 LAVENDER HILL",
+        "cs_postcode": "SW11 1JB",
+        "opening_hour": "9-8PM MON, TUE, WED, 9-6 FRI, 9-5 SAT AND 1-5PM SUN. CLOSED THUR",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Natural cooling/ventilation\",\"Stand up fans\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "10",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 98
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 99,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1545598253167578,
+          51.474580016594466
+        ]
+      },
+      "properties": {
+        "organisation": "WANDSWORTH LIBRARIES",
+        "cool_space_name": "BATTERSEA PARK LIBRARY",
+        "cs_address1": "309 Battersea Park Road",
+        "cs_postcode": "SW11 4NF",
+        "opening_hour": "MON, TUE 9-7PM, FRI 9-5PM, SAT 10-2.30PM. CLOSED WED & THU",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Stand up fans\",\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "8",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 99
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 100,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.18656925487429538,
+          51.44230372915243
+        ]
+      },
+      "properties": {
+        "organisation": "WANDSWORTH LIBRARIES",
+        "cool_space_name": "EARLSFIELD LIRBARY",
+        "cs_address1": "276 Magdalen Road",
+        "cs_postcode": "SW18 3NY",
+        "opening_hour": "9-7PM MON, THUR, 9-5PM FRI, SAT 10-2.30PM. CLOSED TUE, WED AND SUN",
+        "accessible": "[\"pregnant women\",\"older people\",\"children\",\"people with disabilities\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "6",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 100
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1521398431615601,
+          51.44542000803552
+        ]
+      },
+      "properties": {
+        "organisation": "wandsworth libraries",
+        "cool_space_name": "BALHAM LIBRARY",
+        "cs_address1": "16 Ramsden Road",
+        "cs_postcode": "SW12 8QY",
+        "opening_hour": "9-8PM MON,WED, THU, 9-5 FRI AND 10-6 SAT. CLOSED TUE AND SUN",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Natural cooling/ventilation\",\"Stand up fans\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "10",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 101
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.13772980143481894,
+          51.48799003159103
+        ]
+      },
+      "properties": {
+        "organisation": "Westminster City Council",
+        "cool_space_name": "Pimlico Library",
+        "cs_address1": "Lupus Street",
+        "cs_postcode": "SW1V 3AT",
+        "opening_hour": "9.30am to 8pm, most weekdays",
+        "accessible": "[\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "20",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 102
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 103,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.09880979381615462,
+          51.56378001977556
+        ]
+      },
+      "properties": {
+        "organisation": "St John the Evangelist Brownswood Park",
+        "cool_space_name": "St John the Evangelist Brownswood Park",
+        "cs_address1": "Queen’s Drive",
+        "cs_postcode": "N4 2LW",
+        "opening_hour": "9am - 8pm",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "No",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "40",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 103
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 104,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.15075982986457642,
+          51.518920022498065
+        ]
+      },
+      "properties": {
+        "organisation": "Westminster City Council",
+        "cool_space_name": "Marylebone Library",
+        "cs_address1": "9-11 New Cavendish Street",
+        "cs_postcode": "W1G 8UQ",
+        "opening_hour": "9.30am to 8pm most weekdays",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are not available",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "5",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 104
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 105,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.14787980813032028,
+          51.49270002663625
+        ]
+      },
+      "properties": {
+        "organisation": "Westminster City Council",
+        "cool_space_name": "Victoria Library",
+        "cs_address1": "Buckingham Palace Road",
+        "cs_postcode": "SW1W 9UD",
+        "opening_hour": "9.30am to 8pm most weekdays",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are not available",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "10",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 105
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 106,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.19397982412406825,
+          51.501320023766255
+        ]
+      },
+      "properties": {
+        "organisation": "Royal Borough of Kensington and Chelsea",
+        "cool_space_name": "Kensington Central Library",
+        "cs_address1": "12 Phillimore Walk",
+        "cs_postcode": "W8 7RX",
+        "opening_hour": "9.30am to 8pm most weekdays",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "20",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 106
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 107,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3559698278894438,
+          51.426670019575035
+        ]
+      },
+      "properties": {
+        "organisation": "Richmond upon Thames Libraries ",
+        "cool_space_name": "Hampton Hill Library",
+        "cs_address1": "68 High Street, Hampton Hill",
+        "cs_postcode": "TW12 1NY",
+        "opening_hour": "Mon/Thur/Fri 9.30-18.00hrs Tue closed Wed 10.00-19.00hrs Sat 9.30-16.00",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "I don’t know/ it’s not possible to  monitor indoor temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "9",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 107
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 108,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.17542978894154962,
+          51.47658002797954
+        ]
+      },
+      "properties": {
+        "organisation": "St Mary's Church, Battersea",
+        "cool_space_name": "St Mary's Church, Battersea",
+        "cs_address1": "Battersea Church Road",
+        "cs_postcode": "SW11 3NA",
+        "opening_hour": "9am to 1pm",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "Yes",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "300",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "No",
+        "tier": "Tier 1",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 108
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.18883982085678055,
+          51.517880019825206
+        ]
+      },
+      "properties": {
+        "organisation": "Westminster City Council",
+        "cool_space_name": "Paddington Library",
+        "cs_address1": "Porchester Road",
+        "cs_postcode": "W2 5DU",
+        "opening_hour": "9.30am to 8pm most weekdays",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are not available",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "10",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 109
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 110,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.31324982063477996,
+          51.43785002479349
+        ]
+      },
+      "properties": {
+        "organisation": "London Borough of Richmond upon Thames ",
+        "cool_space_name": "Ham Library",
+        "cs_address1": "Ham Street",
+        "cs_postcode": "TW10 7HR",
+        "opening_hour": "Mon/Tue/Fri 09.30-18.00hrs Wed 10.00-19.00hrs Thur closed Sat 09.30-16.00hrs ",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "I don’t know/ it’s not possible to  monitor indoor temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "10",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 110
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 111,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.35871914943002836,
+          51.45303336789321
+        ]
+      },
+      "properties": {
+        "organisation": "London Borough of Richmond upon Thames ",
+        "cool_space_name": "Whitton Library",
+        "cs_address1": "141 Nelson Road, Whitton",
+        "cs_postcode": "TW2 7BB",
+        "opening_hour": "Mon/Tue/Thur/Fri 9.30-18.00hrs Wed 10.00-19.00hrs Sat 9.30-16.00",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "I don’t know/ it’s not possible to  monitor indoor temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "25",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 111
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 112,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1643398757970842,
+          51.4551399982696
+        ]
+      },
+      "properties": {
+        "organisation": "WANDSWORTH LIBRARIES",
+        "cool_space_name": "NORTHCOTE LIBRARY",
+        "cs_address1": "155e Northcote Road",
+        "cs_postcode": "SW116HW",
+        "opening_hour": "9-7 MON, THUR, 9-5 FRI AND 10-2.30PM SAT. CLOSED TUE, WED AND SUN",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "6",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 112
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 113,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.16819976030879835,
+          51.487460050564906
+        ]
+      },
+      "properties": {
+        "organisation": "Royal Borough of Kensington and Chelsea",
+        "cool_space_name": "Chelsea Library",
+        "cs_address1": "Chelsea Old Town Hall, Kings Road",
+        "cs_postcode": "SW3 5EZ",
+        "opening_hour": "9.30am to 8pm most weekdays",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "10",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 113
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 114,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.24215982460292143,
+          51.44966002271296
+        ]
+      },
+      "properties": {
+        "organisation": "WANDSWORTH LIBRARIES",
+        "cool_space_name": "ROEHAMPTON LIBRARY",
+        "cs_address1": "2 DANEBURY AVENUE",
+        "cs_postcode": "SW15 4HD",
+        "opening_hour": "MON, WED 9-8PM, FRI 9-5PM, SAT 10-2.30PM. CLOSED TUE, THU AND SUN",
+        "accessible": "[\"people with disabilities\",\"children\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Natural cooling/ventilation\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "8",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 114
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 115,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.21553978905236898,
+          51.461470028971604
+        ]
+      },
+      "properties": {
+        "organisation": "WANDSWORTH LIBRARIES",
+        "cool_space_name": "PUTNEY LIBRARY",
+        "cs_address1": "5/7 DISRAELI ROAD",
+        "cs_postcode": "SW15 2DR",
+        "opening_hour": "9-8PM MON,WED, THU. 9-5 FRI AND SAT, 1-5PM SUN. CLOSED TUE",
+        "accessible": "[\"people with disabilities\",\"older people\",\"pregnant women\",\"none of the above\",\"children\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Cannot guarantee 26C, but the space is always cooler than the outside temperature",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Natural cooling/ventilation\",\"Stand up fans\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "10",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 2",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 115
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2245157125510351,
+          51.50585604150927
+        ]
+      },
+      "properties": {
+        "organisation": "Hammersmith and Fulham Council",
+        "cool_space_name": "Shepherds Bush Library",
+        "cs_address1": "6 Wood Lane",
+        "cs_postcode": "W12 7BF",
+        "opening_hour": "Mon, Tues, Weds, Thursday 10am-7pm, Fri and Sat 10am-5pm, Sunday 11am-5pm",
+        "accessible": "[\"people with disabilities\",\"children\",\"older people\",\"pregnant women\"]",
+        "toilets": "Toilets are available on site",
+        "free_water": "No",
+        "is_the_site_staffed_during_opening_hours": "Yes",
+        "what_is_the_indoor_level_of_cooling_provided": "Indoor temperature of 26C or less",
+        "what_are_the_cooling_facilities_available_on_site": "[\"Air conditioning\"]",
+        "seating_available": "Yes",
+        "maximum_seated_capacity": "100",
+        "site_s_maximum_capacity_1": null,
+        "open_10_till_5": "Yes",
+        "tier": "Tier 1",
+        "water_nearby": null,
+        "cs_address2": null,
+        "is_the_space_well_shaded_with_trees": null,
+        "about_shade": null,
+        "are_there_water_features_on_site": null,
+        "shade_seating": null,
+        "site_s_maximum_capacity_2": null,
+        "is_seating_provided_in_the_shade": null,
+        "runtime": 1658188800000,
+        "rough_sleeper_shelter": "FALSE",
+        "objectid": 116
+      }
+    }
+  ]
+}

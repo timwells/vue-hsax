@@ -1,0 +1,2098 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.10619815635855168,
+          51.46266601205113
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Bexley",
+        "site_name": "Welling Library ",
+        "site_address": "Bellegrove Road, Welling DA16 3PA",
+        "longitude": 51.462666,
+        "latitude": "0.106198",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.12134019274722785,
+          51.4908219959675
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Bexley ",
+        "site_name": "Abbey Wood Station",
+        "site_address": "Gayton Road, Abbey Wood, SE2 9HB (outside station) ",
+        "longitude": 51.490822,
+        "latitude": "0.12134",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.14345312554151593,
+          51.48395401356667
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Bexley ",
+        "site_name": "Belvedere Recreation Ground",
+        "site_address": "Park View Road, Welling DA17 6DF",
+        "longitude": 51.483954,
+        "latitude": "0.143453",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.17819022946215968,
+          51.4519600239777
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Bexley ",
+        "site_name": "Cray Gardens",
+        "site_address": "Cray Gardens, Crayford Way, Dartford DA1 4JA",
+        "longitude": 51.45196,
+        "latitude": "0.17819",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.22091684370183862,
+          51.549222028904055
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Brent",
+        "site_name": "Willesden Green tube",
+        "site_address": "Outside Willesden Green Tube Station, Walm Lane, London NW2 4QT",
+        "longitude": 51.549222,
+        "latitude": "-0.220917",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.20118982438949592,
+          51.53371502031085
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Brent",
+        "site_name": "Woodhouse Urban Park  ",
+        "site_address": "Woodhouse Urban Park  ",
+        "longitude": 51.533715,
+        "latitude": "-0.20119",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.07312682983565083,
+          51.41793003849394
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "TfL - A",
+        "council": "Bromley",
+        "site_name": "Crystal Palace",
+        "site_address": "Crystal Palace Park, Thicket Rd, London SE19 2AZ",
+        "longitude": 51.41793,
+        "latitude": "-0.073127",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.12357083503081585,
+          51.51780502416169
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Private",
+        "council": "Camden",
+        "site_name": "Corner of Bury Place and Bloomsbury Way",
+        "site_address": "Bloomsbury Place (jw with Great Russel Street, Bloomsbury Way, London, WC1A 2SA",
+        "longitude": 51.517805,
+        "latitude": "-0.123571",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.11830383210838398,
+          51.51965602443445
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Private",
+        "council": "Camden",
+        "site_name": "Red Lion Square",
+        "site_address": " Red Lion Square, London, WC1X 8SP",
+        "longitude": 51.519656,
+        "latitude": "-0.118304",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.14515002264275984,
+          51.543900518716235
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Private",
+        "council": "Camden",
+        "site_name": "Castlehaven Nature Park",
+        "site_address": "Castlehaven Nature Park, Castlehaven Road, London, NW1 8PU ",
+        "longitude": 51.5439005,
+        "latitude": "-0.1451502",
+        "installed": "Yes",
+        "operational": "No",
+        "objectid": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.19748883807094017,
+          51.544685020767055
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Camden",
+        "site_name": "Kilburn Grange Park",
+        "site_address": "Kilburn Grange Park, entrance off Kilburn High Road",
+        "longitude": 51.544685,
+        "latitude": "-0.197489",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1406388216662664,
+          51.550655020110575
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Camden ",
+        "site_name": "Kentish Town Station",
+        "site_address": "Kentish Town Road at the side of the Network rail Station entrance",
+        "longitude": 51.550655,
+        "latitude": "-0.140639",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1259238426710799,
+          51.522703030564706
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Camden ",
+        "site_name": "Russell Square",
+        "site_address": "Russell Square either at the junction of Montague st or the opposite junction Woburn Place",
+        "longitude": 51.522703,
+        "latitude": "-0.125924",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.14332882389175916,
+          51.539749020240954
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Camden ",
+        "site_name": "Camden High Street",
+        "site_address": "Camden High Street junction Inverness Street",
+        "longitude": 51.539749,
+        "latitude": "-0.143329",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.16565982949892477,
+          51.554480017066176
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Camden ",
+        "site_name": "Hamsteah Heath ",
+        "site_address": "South End Road, Hampstead NW3 2QD - South Hill Park – Opposite Hampstead Heath Station",
+        "longitude": 51.55448,
+        "latitude": "-0.16566",
+        "installed": "Yes",
+        "operational": "No",
+        "objectid": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.10581382996547538,
+          51.51972201549144
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "TfL - A",
+        "council": "Camden ",
+        "site_name": "Farringdon tube station",
+        "site_address": "Farringdon Station, Greville Street junct off/Farringdon Road, London, EC1M 6BY",
+        "longitude": 51.519722,
+        "latitude": "-0.105814",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.09321221865715501,
+          51.37478780271819
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Croydon",
+        "site_name": "East Croydon Station",
+        "site_address": "Station Road, SE25 5AG. entrance to the Station on Station Road",
+        "longitude": 51.3747878,
+        "latitude": "-0.0932124",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.07524684204104008,
+          51.397398957181665
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Croydon",
+        "site_name": "Norwood Junction",
+        "site_address": "Station Road, SE25 5AG. entrance to the Station on Station Road",
+        "longitude": 51.397399,
+        "latitude": "-0.0752471",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.10084583323271684,
+          51.3751020154059
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Croydon",
+        "site_name": "North End",
+        "site_address": "Station Road",
+        "longitude": 51.375102,
+        "latitude": "-0.100846",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.099169831669068,
+          51.398423986967735
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Croydon",
+        "site_name": "Thornton Heath station",
+        "site_address": "Cotford Road",
+        "longitude": 51.398424,
+        "latitude": "-0.09917",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.31466483852969895,
+          51.499260025719686
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Ealing",
+        "site_name": "Northfields Station ",
+        "site_address": "Northfields Station, Northfield Avenue, Ealing, London, W13 9QU",
+        "longitude": 51.49926,
+        "latitude": "-0.314665",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3069948322237129,
+          51.5013200268701
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Ealing",
+        "site_name": "South Ealing Station",
+        "site_address": "South Ealing Road",
+        "longitude": 51.50132,
+        "latitude": "-0.306995",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.32504383959248384,
+          51.509776035492884
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Ealing ",
+        "site_name": "Melbourne Avenue, West Ealing",
+        "site_address": "94 Broadway, Ealing, London, W13 0SY / Melbourne Avenue ",
+        "longitude": 51.509776,
+        "latitude": "-0.325044",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.338171825305337,
+          51.508902019351865
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Ealing ",
+        "site_name": "Hanwell Clock Tower",
+        "site_address": "Hanwell Clock Tower, Uxbridge Road, London W7 3SP",
+        "longitude": 51.508902,
+        "latitude": "-0.338172",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.30855882917376193,
+          51.509735031077376
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Ealing ",
+        "site_name": "Walpole Park",
+        "site_address": "Walpole Park (near the cafe area) Mattock Lane, Ealing W5 5EQ",
+        "longitude": 51.509735,
+        "latitude": "-0.308559",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 25
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.07953083622449936,
+          51.652139013502705
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "TfL - A",
+        "council": "Enfield",
+        "site_name": "Enfield Town",
+        "site_address": "Southbury Road, Enfield, London, EN1 1YX",
+        "longitude": 51.652139,
+        "latitude": "-0.079531",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 26
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.06073981263105919,
+          51.624760026137075
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "TfL - A",
+        "council": "Enfield",
+        "site_name": "Edmonton Green",
+        "site_address": "Edmonton Green LO Station",
+        "longitude": 51.62476,
+        "latitude": "-0.06074",
+        "installed": "Yes",
+        "operational": "No",
+        "objectid": 27
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.06786919142705797,
+          51.490476022591054
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Greenwich",
+        "site_name": "General Gordon Square",
+        "site_address": "Greens End/General Gordon Square",
+        "longitude": 51.490476,
+        "latitude": "0.067869",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 28
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.08492294428214141,
+          51.4896470103407
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Greenwich",
+        "site_name": "Plumstead Station",
+        "site_address": "Plumstead High Street/Walmer Terrace",
+        "longitude": 51.489647,
+        "latitude": "0.084922761",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 29
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.05413715718987124,
+          51.450461017924624
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Greenwich",
+        "site_name": "Passey Place, Eltham High Street",
+        "site_address": "Eltham High Street",
+        "longitude": 51.450461,
+        "latitude": "0.054137",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0316040918614036,
+          51.487353813831994
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Greenwich",
+        "site_name": "Charlton Station",
+        "site_address": "Charlton Church Lane",
+        "longitude": 51.4873538,
+        "latitude": "0.0316039",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 31
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0316040918614036,
+          51.487353813831994
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Greenwich",
+        "site_name": "New Eltham Station ",
+        "site_address": "Footscray Road/South Wood Road",
+        "longitude": 51.4873538,
+        "latitude": "0.0316039",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 32
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.07584981834180485,
+          51.53134298214355
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "TfL - A",
+        "council": "Hackney",
+        "site_name": "Hoxton",
+        "site_address": "Geffrye Street/ Cremer Street, London,E2 8HD",
+        "longitude": 51.531343,
+        "latitude": "-0.07585",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 33
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.07423085555119084,
+          51.54836704186664
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Hackney",
+        "site_name": "Ridley Road Market",
+        "site_address": "Junction of Ridley Road, Colvestone Crescent and Birkbeck Road",
+        "longitude": 51.548367,
+        "latitude": "-0.074231",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 34
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.07535789461230866,
+          51.5384920075663
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "TfL - A",
+        "council": "Hackney",
+        "site_name": "Haggerston",
+        "site_address": "Stean Street / Lee Street, London, E8 4ED",
+        "longitude": 51.538492,
+        "latitude": "-0.075358",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 35
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.22602583161489845,
+          51.49342400777812
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Hammersmith & Fulham",
+        "site_name": "Lyric Square",
+        "site_address": "Lyric Square, King Street, London W6 0QL",
+        "longitude": 51.493424,
+        "latitude": "-0.226026",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 36
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.22888887204462816,
+          51.51058299414388
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Hammersmith & Fulham",
+        "site_name": "Hammersmith Park",
+        "site_address": "Hammersmith Park South Africa Rd, London W12 7PA",
+        "longitude": 51.510583,
+        "latitude": "-0.228889",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 37
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.19418083372411016,
+          51.48001201593364
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Hammersmith & Fulham",
+        "site_name": "Fulham Broadway Tube",
+        "site_address": "Fulham Broadway Tube, Cedarne Road,  SW6 1BY ",
+        "longitude": 51.480012,
+        "latitude": "-0.194181",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 38
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.20280583324309068,
+          51.46889101118713
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Hammersmith & Fulham",
+        "site_name": "Hurlingham Park",
+        "site_address": "Hurlingham Road, Fulham, London SW6 3RH",
+        "longitude": 51.468891,
+        "latitude": "-0.202806",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 39
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.21830981411003358,
+          51.50464002152707
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "TfL",
+        "council": "Hammersmith & Fulham",
+        "site_name": "Shepherd's Bush Station",
+        "site_address": null,
+        "longitude": 51.50464,
+        "latitude": "-0.21831",
+        "installed": "Yes",
+        "operational": "No",
+        "objectid": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.10929982428927501,
+          51.59713999721111
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Haringey",
+        "site_name": "Wood Green Underground",
+        "site_address": "High Road ",
+        "longitude": 51.59714,
+        "latitude": "-0.1093",
+        "installed": "Yes",
+        "operational": "No",
+        "objectid": 41
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.060939797891294646,
+          51.58812001599994
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Haringey",
+        "site_name": "Tottenham Hale Station",
+        "site_address": "Cygnet Way",
+        "longitude": 51.58812,
+        "latitude": "-0.06094",
+        "installed": "Yes",
+        "operational": "No",
+        "objectid": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.07171982379349724,
+          51.58384001476194
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Haringey",
+        "site_name": "Seven Sisters Station ",
+        "site_address": "667 Seven Sisters Rd",
+        "longitude": 51.58384,
+        "latitude": "-0.07172",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 43
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.36387979700529416,
+          51.46851003538739
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Hounslow",
+        "site_name": "By entrance to Treaty Centre",
+        "site_address": "High Street, Hounslow",
+        "longitude": 51.46851,
+        "latitude": "-0.36388",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 44
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.36718982066643285,
+          51.47257003588464
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Hounslow",
+        "site_name": "Lampton Park ",
+        "site_address": "Lampton Park, Lampton Road, TW3 4DJ",
+        "longitude": 51.47257,
+        "latitude": "-0.36719",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.34484981568064055,
+          51.473760022690165
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Hounslow",
+        "site_name": "Thornbury Park",
+        "site_address": null,
+        "longitude": 51.47376,
+        "latitude": "-0.34485",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 46
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3758198154971605,
+          51.48547004670575
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Hounslow",
+        "site_name": "Heston Park",
+        "site_address": null,
+        "longitude": 51.48547,
+        "latitude": "-0.37582",
+        "installed": "Yes",
+        "operational": "No",
+        "objectid": 47
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.30719982582959837,
+          51.48344001774403
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Hounslow",
+        "site_name": "Brentford High Street ",
+        "site_address": null,
+        "longitude": 51.48344,
+        "latitude": "-0.3072",
+        "installed": "Yes",
+        "operational": "No",
+        "objectid": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1036818642594955,
+          51.54625599598639
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "TfL ",
+        "council": "Islington",
+        "site_name": "Highbury & Islington",
+        "site_address": "Holloway Road, London N5 1RA",
+        "longitude": 51.546256,
+        "latitude": "-0.103682",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.10247982153135941,
+          51.54033000667827
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Private",
+        "council": "Islington",
+        "site_name": "Islington Fire Station",
+        "site_address": "Islington Fire Station, 278 Upper St, N1 2TZ",
+        "longitude": 51.54033,
+        "latitude": "-0.10248",
+        "installed": "Yes",
+        "operational": "No",
+        "objectid": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3061559744491725,
+          51.36756149155671
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Kingston",
+        "site_name": "Elm Road",
+        "site_address": "Elm Road, Chessington, London, KT9 1AB",
+        "longitude": 51.3675615,
+        "latitude": "-0.3061563",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 51
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.28406712752986885,
+          51.38189111697143
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Kingston",
+        "site_name": "Tolworth Broadway",
+        "site_address": "Tolworth Broadway / High Street - kt6 ",
+        "longitude": 51.3818911,
+        "latitude": "-0.2840673",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 52
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.25557453796519525,
+          51.39995283183324
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Kingston",
+        "site_name": "New Malden High Steet",
+        "site_address": "New Malden High Street/ High Street - KT3 ",
+        "longitude": 51.3999528,
+        "latitude": "-0.2555747",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 53
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3051300177573939,
+          51.39282661972245
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Kingston",
+        "site_name": "Victoria Road, Surbiton",
+        "site_address": "Victoria Road, Surbiton",
+        "longitude": 51.3928266,
+        "latitude": "-0.3051302",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 54
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.30012112974918564,
+          51.410783625961365
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Kingston ",
+        "site_name": "Kingston Town Centre",
+        "site_address": "Old London Road",
+        "longitude": 51.4107836,
+        "latitude": "-0.3001213",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 55
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.10362282558296573,
+          51.43313101451407
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Lambeth",
+        "site_name": "West Norwood Library",
+        "site_address": "by the cinema and st Luke's church",
+        "longitude": 51.433131,
+        "latitude": "-0.103623",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 56
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.13028887069781753,
+          51.42400993609657
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Lambeth",
+        "site_name": "Streatham Ice and Leisure Centre",
+        "site_address": "Outside Streatham Ice and Leisure Centre, Streatham High Road, SW16 6HX",
+        "longitude": 51.42401,
+        "latitude": "-0.130289",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 57
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.11277483426405689,
+          51.482141018643176
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Lambeth",
+        "site_name": "Oval tube station",
+        "site_address": null,
+        "longitude": 51.482141,
+        "latitude": "-0.112775",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 58
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.12119880819388223,
+          51.48769402288652
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Private",
+        "council": "Lambeth",
+        "site_name": "Vauxhall Pleasure Gardens",
+        "site_address": null,
+        "longitude": 51.487694,
+        "latitude": "-0.121199",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 59
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.12373979584287745,
+          51.48588102608968
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Lambeth",
+        "site_name": "Vauxhall Bus Station",
+        "site_address": "Vauxhall Bus Station",
+        "longitude": 51.485881,
+        "latitude": "-0.12374",
+        "installed": "Yes",
+        "operational": "No",
+        "objectid": 60
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.03708210123059132,
+          51.46437711763536
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "TfL",
+        "council": "Lewisham",
+        "site_name": "Brockley Station",
+        "site_address": "Coulgate street London SE4",
+        "longitude": 51.4643771,
+        "latitude": "-0.0370823",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 61
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.013883755948610181,
+          51.464635055401324
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Lewisham",
+        "site_name": "Cornmill Gardens ",
+        "site_address": "Lewisham High Road",
+        "longitude": 51.464635,
+        "latitude": "-0.013884",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 62
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.05445981870577929,
+          51.42667002512712
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "TfL",
+        "council": "Lewisham",
+        "site_name": "Sydenham Station",
+        "site_address": "Station Approach, Sydenham Station Approach, London SE26 5EU",
+        "longitude": 51.42667,
+        "latitude": "-0.05446",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 63
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.004700174199268815,
+          51.45630001277249
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Lewisham ",
+        "site_name": "Manor House Gardens",
+        "site_address": "Manor House Gardens, Taunton Rd, Lee SE13 5SU",
+        "longitude": 51.4563,
+        "latitude": "0.0047",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 64
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.04916681785684735,
+          51.42972203703862
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Lewisham ",
+        "site_name": "Mayow Park",
+        "site_address": "Mayow Park, Mayow Road, London, SE26 4SS",
+        "longitude": 51.429722,
+        "latitude": "-0.049167",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 65
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 66,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.025799804322009793,
+          51.46070006292781
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Lewisham ",
+        "site_name": "Hilly Fields",
+        "site_address": "Hilly Fields,Adelaide Avenue. By the Cafe & Toilets buildings,SE4 1LE",
+        "longitude": 51.4607,
+        "latitude": "-0.0258",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 66
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.009499824102654967,
+          51.447400016498484
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Lewisham ",
+        "site_name": "Mountsfield Park",
+        "site_address": "Mountsfield Park, The Lodge, Stainton Rd, London SE6 1AN",
+        "longitude": 51.4474,
+        "latitude": "-0.0095",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 67
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.037129801634807995,
+          51.46443801734305
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Lewisham ",
+        "site_name": "Brockley Station ",
+        "site_address": "Brockley Station, Coulgate Street, Brockley, SE4 2RW",
+        "longitude": 51.464438,
+        "latitude": "-0.03713",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 68
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.16349584842538797,
+          51.40623512942222
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Merton",
+        "site_name": "Mitcham Town Centre",
+        "site_address": "Mitcham Fair Green, Upper Green West, Mitcham,CR4 3NA",
+        "longitude": 51.406235,
+        "latitude": "-0.163496",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 69
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 70,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.20701983505206034,
+          51.42121102904453
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Merton",
+        "site_name": "Wimbledon Station",
+        "site_address": "Wimbledon Bridge - outside of Wimbledon station beside the taxi rank shelter",
+        "longitude": 51.421211,
+        "latitude": "-0.20702",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 70
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.23022982274136947,
+          51.40940001656114
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Merton",
+        "site_name": "Raynes Park Station",
+        "site_address": "Site outside Raynes Park Station, by the planter fronting Coombe Lane, London SW20",
+        "longitude": 51.4094,
+        "latitude": "-0.23023",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 71
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 72,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0022498370206520263,
+          51.54152001354057
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "TfL - A",
+        "council": "Newham",
+        "site_name": "Stratford Bus Station",
+        "site_address": "Stratford Bus Station concourse",
+        "longitude": 51.54152,
+        "latitude": "-0.00225",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 72
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 73,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.06672017302129145,
+          51.57681001236551
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Redbridge",
+        "site_name": "Gants Hill",
+        "site_address": null,
+        "longitude": 51.57681,
+        "latitude": "0.06672",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 73
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.03479017450494486,
+          51.60775001809217
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Redbridge",
+        "site_name": "Woodford Station ",
+        "site_address": "Eastern entrance to Woodford Station",
+        "longitude": 51.60775,
+        "latitude": "0.03479",
+        "installed": "Yes",
+        "operational": "No",
+        "objectid": 74
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.05901483195879829,
+          51.4652610141807
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Southwark",
+        "site_name": "Nunhead Green",
+        "site_address": "on the pathway inside Nunhead Green Park toward Gordon Road",
+        "longitude": 51.465261,
+        "latitude": "-0.059015",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.05620879433934922,
+          51.47780102123302
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Southwark",
+        "site_name": "Brimmington Park",
+        "site_address": "inside Brimmington Park,Clifton Crescent,SE15 2RX",
+        "longitude": 51.477801,
+        "latitude": "-0.056209",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 76
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.08527782733302203,
+          51.45086101463389
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Southwark",
+        "site_name": "Dulwich Village",
+        "site_address": "On Calton Avenue in junction with Court Lane",
+        "longitude": 51.450861,
+        "latitude": "-0.085278",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 77
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.05189082507236283,
+          51.50078701963666
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "TfL - A",
+        "council": "Southwark",
+        "site_name": "Rotherhithe Station",
+        "site_address": "Outside Rotherhithe Station ",
+        "longitude": 51.500787,
+        "latitude": "-0.051891",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 78
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.008803503754055843,
+          51.489647974705434
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Tower Hamlets",
+        "site_name": "Millwall Park",
+        "site_address": "Millwall Park, Stebondale St E14 8JE ",
+        "longitude": 51.4896479,
+        "latitude": "-0.0088036",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 79
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.010922408565840827,
+          51.49767148482661
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Tower Hamlets",
+        "site_name": "St John's Park",
+        "site_address": "St Johns Park Plevna St E14 3PD",
+        "longitude": 51.4976714,
+        "latitude": "-0.0109225",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 80
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 81,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.05683083071874556,
+          51.51142504028724
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "TfL - A",
+        "council": "Tower Hamlets",
+        "site_name": "Shadwell",
+        "site_address": "Shadwell Station, Watney Street/ Cornwall Street, E1 2QJ",
+        "longitude": 51.511425,
+        "latitude": "-0.056831",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 81
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.06137043083570842,
+          51.50469782433731
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Tower Hamlets",
+        "site_name": "Wapping Gardens",
+        "site_address": "Wapping Gardens Tench Street Wapping London E1",
+        "longitude": 51.5046978,
+        "latitude": "-0.0613706",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 82
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.04942982771443034,
+          51.533400019653776
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Tower Hamlets",
+        "site_name": "Victoria Park",
+        "site_address": null,
+        "longitude": 51.5334,
+        "latitude": "-0.04943",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 83
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 84,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0008477331814288045,
+          51.60790112063957
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Waltham Forest",
+        "site_name": "Highams Park Station",
+        "site_address": "Larkshall Road - Outside Highams Park Station",
+        "longitude": 51.6079011,
+        "latitude": "-0.0008479",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 84
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.04063051649226999,
+          51.58710701548467
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Waltham Forest",
+        "site_name": "Blackhorse Road tube station",
+        "site_address": "Forest Road - Outside Blackhorse Road Tube Station",
+        "longitude": 51.587107,
+        "latitude": "-0.0406307",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 85
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 86,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.008590254646705478,
+          51.568162512634196
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Waltham Forest",
+        "site_name": "Leytonstone tube station",
+        "site_address": "Church Lane - Outside Leytonstone Tube Station",
+        "longitude": 51.5681625,
+        "latitude": "0.0085901",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 86
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.00901592365090961,
+          51.559940221047654
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Waltham Forest",
+        "site_name": "High Road, Leyton",
+        "site_address": "High Road Leyton",
+        "longitude": 51.5599403,
+        "latitude": "-0.009016",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 87
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 88,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.018461847479752044,
+          51.58214400138129
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Waltham Forest",
+        "site_name": "Hoe Street ",
+        "site_address": "Hoe Street/First Avenue, Walthamstow, London, E17 9QG",
+        "longitude": 51.582144,
+        "latitude": "-0.018462",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 88
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 89,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.009776171238435123,
+          51.63318801369347
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "TfL - A",
+        "council": "Waltham Forest",
+        "site_name": "Chingford",
+        "site_address": "Chingford Station",
+        "longitude": 51.633188,
+        "latitude": "0.009776",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 89
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.18764981205477682,
+          51.4360920247302
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Wandsworth",
+        "site_name": "Garratt Park",
+        "site_address": "Entrance off Siward Road, SW17 0LB ",
+        "longitude": 51.436092,
+        "latitude": "-0.18765",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 90
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.20618492197212807,
+          51.445072222896165
+        ]
+      },
+      "properties": {
+        "programme": "TW",
+        "applicant": "Borough",
+        "council": "Wandsworth",
+        "site_name": "Southfields tube station",
+        "site_address": "Wimbledon Park Road",
+        "longitude": 51.4450722,
+        "latitude": "-0.2061851",
+        "installed": "Yes",
+        "operational": "Yes",
+        "objectid": 91
+      }
+    }
+  ]
+}
