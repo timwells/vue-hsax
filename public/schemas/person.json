@@ -1,21 +1,30 @@
 {
-  "$id": "https://example.com/person.schema.json",
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hsax-10fe6.web.app/schemas/person.json",
+  "$schema": "http://json-schema.org/schema",
+
   "title": "Person",
+
   "type": "object",
   "properties": {
     "firstName": {
       "type": "string",
-      "description": "The person's first name."
+      "description": "The person's first name.",
+      "minLength": 2,
+      "maxLength": 20
     },
     "lastName": {
       "type": "string",
-      "description": "The person's last name."
+      "description": "The person's last name.",
+      "minLength": 2,
+      "maxLength": 20
+
     },
     "age": {
       "description": "Age in years which must be equal to or greater than zero.",
       "type": "integer",
       "minimum": 0
     }
-  }
+  },
+  "additionalProperties": false,
+  "required" : ["firstName","lastName","age"]
 }

@@ -1,0 +1,56 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+
+    "id": "https://hsax-10fe6.web.app/schemas/geometry.json",
+    "type": "object",
+    "definitions": {
+        "Point": {
+            "title": "Point",
+            "type": "object",
+            "properties": {
+                "type": {
+                    "enum": [
+                        "Point"
+                    ]
+                },
+                "coordinates": {
+                    "$ref": "#/definitions/position"
+                }
+            }
+        },
+        "MultiPoint": {
+            "title": "MultiPoint",
+            "type": "object",
+            "properties": {
+                "type": {
+                    "enum": [
+                        "MultiPoint"
+                    ]
+                },
+                "coordinates": {
+                    "$ref": "#/definitions/positionArray"
+                }
+            }
+        },
+        "position": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "additionalItems": false,
+            "items": [
+                {
+                    "type": "number"
+                },
+                {
+                    "type": "number"
+                }
+            ]
+        },
+        "positionArray": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/position"
+            }
+        }
+    }
+}

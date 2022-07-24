@@ -18,3 +18,12 @@
    - index.html exist OverWr ? N
 * firebase deploy --only functions
 * firebase deploy --only hosting
+
+
+https://hsax-10fe6.web.app/schemas/person.json
+
+https://hsax-10fe6.web.app/schemas/v1/event-spec.json
+
+https://hsax-10fe6.web.app/schemas/v2/event-spec.json
+
+https://hsax-10fe6.web.app/images/info-card-1.jpg

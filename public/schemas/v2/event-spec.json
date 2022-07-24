@@ -1,0 +1,201 @@
+{
+  "$schema" : "http://json-schema.org/schema",
+  "type" : "object",
+  "properties" : {
+    "correlationId": {
+        "description": "Correlation ID as UUID",
+        "type" : "string",
+        "pattern" : "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    },
+    
+    "correlationId2": {
+      "description": "Correlation ID as UUID",
+      "type" : "string",
+      "format": "uuid"
+    },
+
+    "uniqueId": {
+        "description": "Unique ID as UUID",
+        "type" : "string",
+        "pattern" : "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    },
+
+    "eventId": {
+        "description": "Event ID as UUID",
+        "type" : "string",
+        "pattern" : "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    },
+
+    "processingLayer" : {
+      "description": "processing Layer as UUID",
+      "type" : "string",
+      "pattern" : "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    },
+
+    "responsibleSystem": {
+      "description": "Responsible System Name",
+      "type" : "string",
+      "minLength": 2,
+      "maxLength": 20
+    },
+
+    "dspHandlingType" : {
+      "description": "Notification System Name",
+      "type" : "string",
+      "minLength": 2,
+      "maxLength": 20
+    },
+
+    "eventPoint" : {
+      "description": "Event Point System Name",
+      "type" : "string",
+      "minLength": 2,
+      "maxLength": 20
+    },
+
+    "message" : {
+      "description": "Message",
+      "type" : "string",
+      "minLength": 2,
+      "maxLength": 20
+    },
+
+    "tracePoint" : {
+      "description": "Trace Point",
+      "type" : "string",
+      "minLength": 2,
+      "maxLength": 20
+    },
+
+    "priority" : {
+      "description": "Priority enum",
+      "type" : "string",
+      "enum" : ["INFO","WARNING", "ERROR"]
+    },
+
+    "printLog" : {
+      "description": "Priority enum",
+      "type" : "boolean"
+    },
+    
+    "elapsed" : {
+      "description": "elapsed time (ms)",
+      "type" : "integer"
+    },
+
+    "locationInfo" : {
+      "type" : "object",
+      "description": "locationInfo",
+      "properties": {
+        "lineInFile" : {
+          "description": "lineInFile",
+          "type": "integer"
+        },
+        "component" : {
+          "description": "",
+          "type" : "string",
+          "minLength": 2,
+          "maxLength": 20
+        },
+        "fileName" : {
+          "description": "",
+          "type" : "string"
+        },
+        "rootContainer" : {
+          "description": "",
+          "type" : "string"
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "timestamp" : {
+      "description": "2021-08-04T07:22:46.733Z",
+      "type" : "string",
+      "pattern" : "\\d{4}-[01]\\d-[0-3]\\dT[0-2]\\d:[0-5]\\d:[0-5]\\d\\.\\d+([+-][0-2]\\d:[0-5]\\d|Z)"
+    },
+
+    "responsibleSystemMetadata" : {
+      "type" : "object",
+      "properties": {
+        "sourceChannel" : {
+          "type" : "string",
+          "minLength": 2,
+          "maxLength": 20
+        },
+        "targetChannel" : {
+          "type" : "string",
+          "minLength": 2,
+          "maxLength": 20
+        }
+      },
+      "additionalProperties": false,
+      "required" : ["sourceChannel","targetChannel"]
+    },
+
+    "applicationName" : {
+      "type" : "string",
+      "minLength": 2,
+      "maxLength": 20
+    },
+
+    "applicationVersion" : {
+      "description" : "10.2.3-DEV-SNAPSHOT",
+      "type" : "string",
+      "pattern" : "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$"
+    },
+
+    "environment" : {
+      "type" : "string",
+      "enum" : ["dev","uat","stag", "prod"]
+    },
+
+    "threadName" : {
+      "description" : "[MuleRuntime].uber.07: [notification-router].notificationRouter.BLOCKING @54ffe86e",
+      "type" : "string",
+      "minLength": 2,
+      "maxLength": 20
+    },
+
+    "properties_1": {
+        "type" : "object",
+        "properties": {
+          "contentType" : {
+            "description" : "UTF-8",
+            "type": "string" 
+          },
+
+          "MULE_ENCODING" : { 
+            "description": "application/json; charset=UTF-8",
+            "type" : "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+
+  "additionalProperties": false,
+
+  "required": [
+    "correlationId", 
+    "uniqueId", 
+    "eventId", 
+    "processingLayer",
+    "responsibleSystem",
+    "dspHandlingType",
+    "eventPoint",
+    "message",
+    "tracePoint",
+    "priority",
+    "printLog",
+    "elapsed",
+    "locationInfo",
+    "timestamp",
+    "responsibleSystemMetadata",
+    "applicationName",
+    "applicationVersion",
+    "environment",
+    "threadName",
+    "properties_1"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    "$id": "https://hsax-10fe6.web.app/schemas/employee.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    
+    "type": "object",
+    "properties": {
+        "employee" : { "$ref": "https://hsax-10fe6.web.app/schemas/person.json" },
+        "salary" : {
+            "type" : "number"
+        }
+    }
+}

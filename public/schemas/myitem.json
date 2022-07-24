@@ -1,0 +1,10 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "https://hsax-10fe6.web.app/schemas/myitem.json#",
+    "type": "object",
+    "properties": {
+         "point": {
+             "$ref": "https://hsax-10fe6.web.app/schemas/geometry.json#definitions/Point"
+         }
+    }
+}
